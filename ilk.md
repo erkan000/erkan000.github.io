@@ -4,4 +4,4 @@
 
 ## Ne desem
 
-Bilemedim yavrum ya..
+...
