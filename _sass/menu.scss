@@ -1,0 +1,102 @@
+$drk: #353535;
+$grn: #16A085;
+$wht: #ffffff;
+$yellow: #ffcc00;
+$brgtDrk: #505655;
+$ubuntuOrange: #dd4814;
+
+$brgtGreen: #93bd20;
+$menuText: $yellow;
+$menuBg: $brgtDrk;
+
+%fix {
+  &:after {clear:both;content:"";display:table;}
+  &:before { content:"";display:table;} }
+
+ul {list-style: none;padding:0; margin: 0;@extend %fix;}
+
+header {
+  @extend %fix;
+  background: url(../images/nav-bg.gif);
+  padding: 0 7%;
+  box-shadow: 0 2px 5px rgba(#444,.3);
+}
+
+nav {
+  
+  li {
+    position: relative;
+    display: inline-block;
+    float: left;
+  }
+  
+  a {
+    position: relative;
+    z-index: 599;
+    color: $menuText;
+    background: url(../images/nav-bg.gif);
+    text-decoration: none;
+    display: block;
+    padding: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    i[class*="caret"] {
+      color: lighten($drk,4%);
+      margin-left: .15em;
+    }
+    
+    &:hover {
+      color: #a38e3d;
+    }
+    
+    &:hover + .submenu {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+   
+  
+  .submenu {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    z-index: 499;
+    width: 14em;
+    top: 100%;
+    left: 0;
+    background: darken($drk,4%);
+    box-shadow: 0 2px 5px rgba(#444,.3);
+
+    
+    li > .submenu {
+      top: 0;
+      left: 100%;
+    }
+    
+    &:hover {
+     opacity: 1;
+     visibility: visible;
+    }
+    
+    li {
+      float: none;
+      display: block;
+    }
+    a {
+      width: 100%;
+      display: block;
+      font-weight: 300;
+      // border-bottom: 2px solid darken($menuBg,4%);
+      padding: 1.4em 2em;
+      &:hover {
+        color: $menuText;
+        background: darken($menuBg,2.5%);
+      }
+    }
+    
+  }
+  
+}

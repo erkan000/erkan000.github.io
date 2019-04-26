@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=1' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style2.css' | relative_url }}">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/menu.js' | relative_url }}"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      
+
+<header>
+<nav id="nav" class="ry">
+  <ul id="main-menu">
+    <li>
+      <a href="/"><i class="fa fa-home"></i> HOME </a>
+    </li>
+
+<!--
+  SUBMENU
+    <li>
+      <a href="#"><i class="fa fa-user"></i> Notes <i class="fa fa-caret-down"></i></a>
+        <ul class="submenu">
+        <li><a href="#0">Meet the Team</a></li>
+        <li><a href="#0">Careers</a></li>
+        <li>
+          <a href="#0">More Items <i class="fa fa-caret-right"></i></a>
+           <ul class="submenu">
+            <li><a href="#0">A Sub-Item</a></li>
+            <li>
+              <a href="#0">A Sub-Item</a>
+             </li>
+            <li>
+              <a href="#0">A Sub-Item</a>
+             </li>
+          </ul>  
+         </li>
+      </ul>  
+    </li>
+-->
+
+    <li>
+      <a href="#"><i class="fa fa-briefcase"></i> Notes <i class="fa fa-caret-down"></i></a>
+       <ul class="submenu">
+        {% for bolum in site.collections %}
+          {% if bolum.label != 'posts' %}
+            <li><a href="/{{ bolum.label }}">{{ bolum.label }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>  
+    </li>
+    <li>
+      <a href="/about"><i class="fa fa-comment"></i> About </a>
+    </li>
+  </ul>
+</nav>  
+</header>
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <span class="credits right"><a href="#">{{ page.date| date: "%d.%m.%Y" }}</a></span>
+          <h1>{{ page.title }}</h1>          
+        </div>        
+
+        {{ content }}
+
+      </section>
+
+    </div>
+
+  </body>
+</html>
