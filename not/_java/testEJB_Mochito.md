@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Unit testing EJ
+title: Unit testing EJB's with embedded @Resources
 date: 03.02.2019
 ---
 
