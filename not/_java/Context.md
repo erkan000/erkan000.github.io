@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Local Context oluşturmak
 date: 12.02.2019
