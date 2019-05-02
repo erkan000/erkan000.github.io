@@ -1,4 +1,11 @@
-﻿# Unit testing EJB's with embedded @Resources
+﻿# 
+
+---
+layout: default
+title: Unit testing EJB's with embedded @Resources
+date: 03.02.2019
+---
+
 
 At my work, i often need to test newly created EJB methods. My EJB classes also have @Resources datasource and it gets datasource from Application Server Context. For doing unit test of this situation, i need to have Mock datasource and inject EJB's. First of all mochito pom is;
 
