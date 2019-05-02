@@ -5,7 +5,6 @@ date: 12.02.2019
 ---
 
 
-# Local Context oluşturmak
 
 Test edeceğimiz uygulama eğer Context'e bakıp bir nesneye erişiyorsa bunu test etmek için bir Context Container'a, yani uygulama sunucusu veya enbedded container'a vb.. ihtiyacımız vardır. Testlerimizi bunlar aracılığı ile yapmak ise bize zaman kaybettirir.(Sunucunun ayağa kalkması için geçecek zaman) Bu sebepten Context'imizi kendimiz oluşturup çok daha hızlı testler yapacağız. Öncelikle testimizin bizim kullanacağımız context'i kullanmasını belirtmek için;
 
