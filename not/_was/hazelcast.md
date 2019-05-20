@@ -4,6 +4,7 @@ title: Hazelcast
 date: 16.04.2019
 ---
 
+
 https://www.baeldung.com/java-hazelcast
 
 Hazelcast, im memory data grid ürünü olarak geçiyor. Verilerin bellekte saklayýp farklý JVM'lerde paylaþmayý, hatta ayarlanýrsa farklý sunucular arasýnda bile paylaþmayý saðlýyor. Hazelcast veri daðýtýmý için geliþtirilmiþ bir kütüphanedir. Processler arasý iletiþimde kullanabileceðiniz gibi verinizi tek bir lokasyon üzerinde cache’lemek için de kullanabilirsiniz. Bir java client oluþturup instance'larýn birine baðlanýp içindeki verileri çekebiliriz. Management center ile görsel ayar yapabiliriz. Kullanmak için "hazelcast-3.11.jar" ve "hazelcast-client-3.11.jar" jarlarýný projemizse ekliyoruz. Oluþturmak için;
