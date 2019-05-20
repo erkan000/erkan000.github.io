@@ -11,3 +11,4 @@ was ile ilgili sayfa dır
 <li><a href="{{ bolum.url }}">{{ bolum.title }}</a></li>
 
 {% endfor %}
+
