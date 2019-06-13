@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: OO Design Principles
+date: 10.03.2018
+
+---
+
 Chapter-3 (OO Design Principles)
 ===========
 
