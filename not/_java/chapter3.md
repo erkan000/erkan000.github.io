@@ -484,11 +484,11 @@ tanımlanıyor.
 ### Benefits of the DAO Pattern
 
 The benefits of the DAO pattern are\
-■ It abstracts and encapsulates all access to a data source. It manages
+-It abstracts and encapsulates all access to a data source. It manages
 the connection to the data source to obtain and store data.\
-■ It promotes programming to an interface. It completely hides the data
+-It promotes programming to an interface. It completely hides the data
 Access implementation from its clients.\
-■ It decouples the business logic layer and persistence layer. It makes
+-It decouples the business logic layer and persistence layer. It makes
 the code independent of any changes to a data source or its vendor (for
 example, plaintext, XML, LDAP, MySQL, Oracle, or DB2).\
 ■ It promotes flexibility. Because the interfaces accessible to client
