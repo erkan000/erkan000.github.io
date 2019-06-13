@@ -1,9 +1,9 @@
 ---
-title: WAS Notları
+title: JAVA Notları
 date: 24.03.2019
 ---
 
-javaaaaaaaaaaaaa ile ilgili sayfa dır
+Java notlarımın olduğu sayfadır.
 
 
 {% for bolum in site.java %}
