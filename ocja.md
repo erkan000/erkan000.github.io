@@ -1,10 +1,10 @@
 ---
-title: OCJA Notları
+title: OCJP Notları
 ---
 
-OCJA notları
+OCJP notları
 
-{% for bolum in site.ocja %}
+{% for bolum in site.ocjp %}
 
 <li><a href="{{ bolum.url }}">{{ bolum.title }}</a></li>
 
