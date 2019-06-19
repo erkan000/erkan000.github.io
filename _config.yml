@@ -45,6 +45,6 @@ collections:
     output: true
   was:
     output: true
-  ocja:
+  ocjp:
     output: true
 collections_dir: not
