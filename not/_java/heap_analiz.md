@@ -35,15 +35,16 @@ http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/runtimes/tools/dtf
 
 Ardından sorunlu phd dosyamı açıyorum. Leak suspect kısmında zaten belleği dolduran sınıfı direk olarak görebildim ve sorunu tespit ettim. Bu tool şu işe yarıyor.
 
+Öncelikle bu tool ile sınıfın değerlerini okuyamadım, hep sıfırdı. Sebebi heapdump'lar nesne içeriğini içermezler! Nesne değişkenlerinin içeriklerine bakmak için *.dmp uzantılı dosyaları* açman lazım, fakat çok RAM'e ihtiyaç var.
 
-- Öncelikle bu tool ile sınıfın değerlerini okuyamadım, hep sıfırdı. Sebebi heapdump'lar nesne içeriğini içermezler! Nesne değişkenlerinin içeriklerine bakmak için *.dmp uzantılı dosyaları* açman lazım, fakat çok RAM'e ihtiyaç var.
 - Heap de hangi sınıftan kaç adet var, ne kadar belleği kaplıyor, sınıfın bellek adresleri vs. vs bilgileri
 - Bu sınıflar içinde arama yapmak için SQL benzeri bir OQL özelliği vardır ve heap içinde sorgu yapılabilir!
 - Histogram 'a tıklanarak JVM içindeki bütün sınıflar sayısına göre listelenebilir ve sınıfa sağ tıklayarak birçok işlem yapılabilir. 
-  - List objects - with outgoing referances dersek, ilgili sınıfın bellekteki bütün instanceları ve adresleri,
-  - merge shortest paths to gc roots dersek sınıfı kullanan diğer sınıfları listeleriz 
-  - leak suspects ise leak olabilecek şüpheli sınıfları direk kendi yorumlayıp gösteriyor.
+  - List objects - with outgoing referances dersek, ilgili sınıfın bellekteki bütün instanceları ve adresleri, merge shortest paths to gc roots dersek sınıfı kullanan diğer sınıfları listeleriz.
+  - Leak suspects ise leak olabilecek şüpheli sınıfları direk kendi yorumlayıp gösteriyor.
   - Eğer JVM ile aynı ortamda çalışıyorsa MAT, çalışan JVM den dump alabilir. Dosya - acquire dump diyerek dump alabiliriz. IBM JVM i de options dan alabiliyoruz.
+
+
 
 > ## Generating a heap dump
 > 
@@ -61,7 +62,7 @@ Ardından sorunlu phd dosyamı açıyorum. Leak suspect kısmında zaten belleğ
 > 
 > Now you have the heap dump and want to figure out what was inside the heap at the moment the OOME occurred. There are several Java heap dump analyzers out there, where most of them can do more then just heap analysis. The products range from commercial to open source and these are the ones that I tried with my 4Gb .hprof file:
 > 
-> - [Yourkit](http://www.yourkit.com/)>   
+> - [Yourkit](http://www.yourkit.com/)   
 > - [jHat](http://download.oracle.com/javase/6/docs/technotes/tools/share/jhat.html)
 > - [Eclipse Memory Analyzer (MAT)](http://www.eclipse.org/mat/)
 > -  [Visual VM](https://visualvm.dev.java.net/)
