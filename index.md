@@ -18,3 +18,7 @@ Hoşgeldin, burada hızlı notlarımı bulabilirsin.
 	{% endif %}
 {% endfor %}
 </div>
+
+<div>
+	<a href="http://busrauzun.com/clean-code-kitabindan-notlar.html">Robert C. Martin, Clean Code kitabı notları!</a>
+</div>
