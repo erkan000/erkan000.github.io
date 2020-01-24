@@ -47,4 +47,6 @@ collections:
     output: true
   ocjp:
     output: true
+  linux:
+    output: true
 collections_dir: not
