@@ -8,108 +8,106 @@ date: 24.01.2020
 EXT4 ile formatlanmış bir disk üzerinde klasöre sağ tıkla “Local Network Share” tabı içinde bu klasörü paylaş de ve anonymous erişime izin ver sadece. Bu kadar windowsdan \\192.168.2.100 diyerek ulaşabilirsin.
 
 ## İşletim sistemi güncelleme
-sudo apt-get update 
-sudo apt-get upgrade
-(red-hat tabanlı ise yum)
-(deb uzantılı dosyalar debian ve ubuntu sistemlerde dpkg programı ile kurulabilirler.)
-(rpm uzantılıları ubuntuya yüklemek için bunu deb uzantılıya çeviren alien programı kullanılabilir.)
-Kullnılmayan yükleme dosyalarını silmek;
-sudo apt autoremove
+- sudo apt-get update 
+- sudo apt-get upgrade
+- (red-hat tabanlı ise yum)
+- (deb uzantılı dosyalar debian ve ubuntu sistemlerde dpkg programı ile kurulabilirler.)
+- (rpm uzantılıları ubuntuya yüklemek için bunu deb uzantılıya çeviren alien programı kullanılabilir.)
+- Kullanılmayan yükleme dosyalarını silmek;
+- sudo apt autoremove
 
 ## Program çalıştırma;
-önce ll komutu ile dosya çalıştırılabilir mi ona bak. Ubuntu'da yeşil renk oluyor. Değil ise chmod +x dosya_adi diyerek dosyayı çalıştırılabilir yaparız. Sonra da ./dosya_adi diyerek çalıştırırız.
+Önce ll komutu ile dosya çalıştırılabilir mi ona bak. Ubuntu'da yeşil renk oluyor. Değil ise chmod +x dosya_adi diyerek dosyayı çalıştırılabilir yaparız. Sonra da ./dosya_adi diyerek çalıştırırız.
 
 ## Komut satırından arama yapmak;
 sudo find / -iname 'aranacak_dosya' -print
 
 ## Apache web server kurmak;
-sudo apt-get install apache2 apache2-utils -y
-komutu ile (red-hat tabanlılarda ise httpd)
-Root klasörü bilgisayarda (/var/www/html) klasörü içindedir.
-Konfigurasyon dosyası ise; (/etc/apache2/apache2.conf) dir.
-grep -i documentroot /etc/apache2/apache2.conf
+- sudo apt-get install apache2 apache2-utils -y
+komutu ile (red-hat tabanlılarda ise httpd) root klasörü bilgisayarda (/var/www/html) klasörü içindedir. Konfigurasyon dosyası ise; (/etc/apache2/apache2.conf) dir.
+- grep -i documentroot /etc/apache2/apache2.conf
 komutu ile kolayca edit edilebilir.
 
 ## Tomcat kurmak;
 (https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04 )
-sudo apt-get remove apache2
-sudo apt-get update
+- sudo apt-get remove apache2
+- sudo apt-get update
 
-sudo groupadd tomcat
-sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
-cd /tmp
-curl -O http://apache.mirrors.ionfish.org/tomcat/tomcat-8/v8.5.15/bin/apache-tomcat-8.5.15.tar.gz
-sudo mkdir /opt/tomcat
-sudo tar xzvf apache-tomcat-8*tar.gz -C /opt/tomcat --strip-components=1
-cd /opt/tomcat
-sudo chgrp -R tomcat /opt/tomcat
-sudo chmod -R g+r conf
-sudo chmod g+x conf
-sudo chown -R tomcat webapps/ work/ temp/ logs/
-sudo update-java-alternatives -l
-sudo nano /etc/systemd/system/tomcat.service
-sudo systemctl daemon-reload
-sudo systemctl start tomcat
-sudo systemctl status tomcat
-sudo systemctl enable tomcat
-sudo nano /opt/tomcat/conf/server.xml
-sudo systemctl restart tomcat
+- sudo groupadd tomcat
+- sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
+- cd /tmp
+- curl -O http://apache.mirrors.ionfish.org/tomcat/tomcat-8/v8.5.15/bin/apache-tomcat-8.5.15.tar.gz
+- sudo mkdir /opt/tomcat
+- sudo tar xzvf apache-tomcat-8*tar.gz -C /opt/tomcat --strip-components=1
+- cd /opt/tomcat
+- sudo chgrp -R tomcat /opt/tomcat
+- sudo chmod -R g+r conf
+- sudo chmod g+x conf
+- sudo chown -R tomcat webapps/ work/ temp/ logs/
+- sudo update-java-alternatives -l
+- sudo nano /etc/systemd/system/tomcat.service
+- sudo systemctl daemon-reload
+- sudo systemctl start tomcat
+- sudo systemctl status tomcat
+- sudo systemctl enable tomcat
+- sudo nano /opt/tomcat/conf/server.xml
+- sudo systemctl restart tomcat
 
 tomcat dizini sahibini değişttirmek için;
-	sudo chown -R chi /opt/tomcat/
+- sudo chown -R chi /opt/tomcat/
 
 ## Tomcat 8080 portunu 80. porta yönlendirmek;
-sudo iptables -t nat -A PREROUTING -i wlan0 -p tcp --dport 80 -j REDIRECT --to-port 8080
-sudo /etc/init.d/netfilter-persistent save 
+- sudo iptables -t nat -A PREROUTING -i wlan0 -p tcp --dport 80 -j REDIRECT --to-port 8080
+- sudo /etc/init.d/netfilter-persistent save 
 
 ## Bir servisin durumunu görüntülemek, servis başlatmak, servis durdurmak;
-service apache2 status
-sudo service apache2 stop
-sudo service apache2 start
-sudo service apache2 restart
+- service apache2 status
+- sudo service apache2 stop
+- sudo service apache2 start
+- sudo service apache2 restart
 
 ## ISO imajı USB ye yazarak boot edilebilir USB oluşturmak.
-sudo fdisk -l
+- sudo fdisk -l
 komutu ile USB diskin harfi tespit edilir. Önce komut çıktısına bakıp sonra USB yi takarsan daha emin olursun harfinden.
-sudo dd if=kali-linux-2016.1-amd64.iso of=/dev/sdb bs=512k
+- sudo dd if=kali-linux-2016.1-amd64.iso of=/dev/sdb bs=512k
 komutu ile de dosya USB'ye kopyalanır. 512 kopyalama hızıdır. Tavsiye edilen.
 
 ## Java Kurmak.
 Tar.gz uzantılı dosya oracle sitesinden indirilir.
 
-	tar -xvf jdk-8u91-linux-x64.tar.gz 
-	sudo mkdir -p /usr/lib/jvm 
-	sudo mv ./jdk1.8.0_91 /usr/lib/jvm/ 
-	sudo update-alternatives --install "/usr/bin/java" "java" 	"/usr/lib/jvm/jdk1.8.0_91/bin/java" 1 
-	sudo update-alternatives --install "/usr/bin/javac" "javac" 	"/usr/lib/jvm/jdk1.8.0_91/bin/javac" 1 
-	sudo update-alternatives --install "/usr/bin/javaws" "javaws" 	"/usr/lib/jvm/jdk1.8.0_91/bin/javaws" 1 
-	sudo chmod a+x /usr/bin/java 
-	sudo chmod a+x /usr/bin/javac 
-	sudo chmod a+x /usr/bin/javaws 
-	sudo chown -R root:root /usr/lib/jvm/jdk1.8.0_91/ 
-	sudo update-alternatives --config java 
+- tar -xvf jdk-8u91-linux-x64.tar.gz 
+- sudo mkdir -p /usr/lib/jvm 
+- sudo mv ./jdk1.8.0_91 /usr/lib/jvm/ 
+- sudo update-alternatives --install "/usr/bin/java" "java" 	"/usr/lib/jvm/jdk1.8.0_91/bin/java" 1 
+- sudo update-alternatives --install "/usr/bin/javac" "javac" 	"/usr/lib/jvm/jdk1.8.0_91/bin/javac" 1 
+- sudo update-alternatives --install "/usr/bin/javaws" "javaws" 	"/usr/lib/jvm/jdk1.8.0_91/bin/javaws" 1 
+- sudo chmod a+x /usr/bin/java 
+- sudo chmod a+x /usr/bin/javac 
+- sudo chmod a+x /usr/bin/javaws 
+- sudo chown -R root:root /usr/lib/jvm/jdk1.8.0_91/ 
+- sudo update-alternatives --config java 
 
 son konuttan sonra başka alternatif java yok ise hata verebilir. Var ise şu komutlar ile de diğerleri için de yapılır.
-	sudo update-alternatives --config javac
-	sudo update-alternatives --config javaws
+- sudo update-alternatives --config javac
+- sudo update-alternatives --config javaws
 
 java -version komutu ile kontrol edilebilir.
 
 ## Sistemi temizlemek;
-sudo apt-get autoremove
-sudo apt-get autoclean
+- sudo apt-get autoremove
+- sudo apt-get autoclean
 
 ## Maven Yüklemek;
-sudo apt-get install maven
-mvn -version
+- sudo apt-get install maven
+- mvn -version
 
 ## MySql Server Yüklemek;
-sudo apt-get update
-sudo apt-get install mysql-server
-sudo mysql_secure_installation
+- sudo apt-get update
+- sudo apt-get install mysql-server
+- sudo mysql_secure_installation
 
-Çalışıp çalışmadığına bakmak için 		systemctl status mysql.service
-Çalıştırmak için ise				sudo systemctl mysql start
+- Çalışıp çalışmadığına bakmak için 		systemctl status mysql.service
+- Çalıştırmak için ise				sudo systemctl mysql start
 
 ## Mysql tablo yedeklemek;
 Veritabanındaki bir şemayı ve içindeki bütün tabloları yedeklemek için;
@@ -269,32 +267,32 @@ veya
 	cat /proc/version
 
 ## Docker Komutları;
-docker info				container sayısı, image sayısı, docker klasörü
-docker container ls		bütün containerları listele(imajın bir instance'ı)
-docker image ls			bütün imajları listeler
-docker images			bütün imajları listeler
-docker ps				sadece çalışan containerları
-docker ps -a			bütün containerları listele
-docker run image			imaj localde varsa çalıştırır yoksa download edip çalıştırır.
-docker run hello-world		hello-world ü container olarak çalıştırır.
-docker run –it Ubuntu bash	-it = interactive mode sanal ubuntuyu çalıştırır 						ve içindeki komut satırına düşer
-docker run –it centos /bin/bash	interaktif diğer bir örneği
-docker run -p 8080:8080 image	imaj içindeki 8080 inci portu gerçek makinamızın 						8080'ine bağlar.
-docker pull image			imajı docker hub'dan locale indirir.
-docker rmi ImageID		imajeID li imajı siler
-docker inspect image		imaj bilgilerini gösterir.
+- docker info				container sayısı, image sayısı, docker klasörü
+- docker container ls		bütün containerları listele(imajın bir instance'ı)
+- docker image ls			bütün imajları listeler
+- docker images				bütün imajları listeler
+- docker ps					sadece çalışan containerları
+- docker ps -a				bütün containerları listele
+- docker run image			imaj localde varsa çalıştırır yoksa download edip çalıştırır.
+- docker run hello-world		hello-world ü container olarak çalıştırır.
+- docker run –it Ubuntu bash	-it = interactive mode sanal ubuntuyu çalıştırır 						ve içindeki komut satırına düşer
+- docker run –it centos /bin/bash	interaktif diğer bir örneği
+- docker run -p 8080:8080 image	imaj içindeki 8080 inci portu gerçek makinamızın 						8080'ine bağlar.
+- docker pull image			imajı docker hub'dan locale indirir.
+- docker rmi ImageID		imajeID li imajı siler
+- docker inspect image		imaj bilgilerini gösterir.
 
 Burada kaldım, diğer komutlar devam ediyor.
 https://www.tutorialspoint.com/docker/docker_working_with_containers.htm
 
-docker logs db2			db2 isimli container loglarına bak
-docker ps -a			bütün containerları listele, çalışan,duran
-docker container start xx	duran containerı başlat
-docker container restart xx	çalışanı tekrar başlar.
-docker container rm xx		container’ı sil
-docker volume ls			volume’leri listele
-docker volume prune		kullanılmayan volume’leri siler
-docker system prune 		duran container, volume vs. siler
+- docker logs db2			db2 isimli container loglarına bak
+- docker ps -a			bütün containerları listele, çalışan,duran
+- docker container start xx	duran containerı başlat
+- docker container restart xx	çalışanı tekrar başlar.
+- docker container rm xx		container’ı sil
+- docker volume ls			volume’leri listele
+- docker volume prune		kullanılmayan volume’leri siler
+- docker system prune 		duran container, volume vs. siler
 
 ## Docker ile WAS çalıştırmak;
 Önce docker imajını docker hub dan bulup çekeriz, birçok versiyon var, benimki 11 olduğu için 11 versiyonunu çekeceğim. Bu aşamada was imajını internetten indirecektir.
