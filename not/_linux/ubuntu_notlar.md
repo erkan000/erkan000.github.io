@@ -8,16 +8,19 @@ date: 24.01.2020
 EXT4 ile formatlanmış bir disk üzerinde klasöre sağ tıkla “Local Network Share” tabı içinde bu klasörü paylaş de ve anonymous erişime izin ver sadece. Bu kadar windowsdan \\192.168.2.100 diyerek ulaşabilirsin.
 
 ## İşletim sistemi güncelleme
-- sudo apt-get update 
-- sudo apt-get upgrade
-- (red-hat tabanlı ise yum)
-- (deb uzantılı dosyalar debian ve ubuntu sistemlerde dpkg programı ile kurulabilirler.)
+```sh
+sudo apt-get update 
+sudo apt-get upgrade
+```
+- (red-hat tabanlı ise yum, deb uzantılı dosyalar debian ve ubuntu sistemlerde dpkg programı ile kurulabilirler.)
 - (rpm uzantılıları ubuntuya yüklemek için bunu deb uzantılıya çeviren alien programı kullanılabilir.)
 - Kullanılmayan yükleme dosyalarını silmek;
-- sudo apt autoremove
+```sh
+sudo apt autoremove
+```
 
 ## Program çalıştırma;
-Önce ll komutu ile dosya çalıştırılabilir mi ona bak. Ubuntu'da yeşil renk oluyor. Değil ise chmod +x dosya_adi diyerek dosyayı çalıştırılabilir yaparız. Sonra da ./dosya_adi diyerek çalıştırırız.
+Önce ll komutu ile dosya çalıştırılabilir mi ona bak. Ubuntu'da yeşil renk oluyor. Değil ise `chmod +x dosya_adi` diyerek dosyayı çalıştırılabilir yaparız. Sonra da `./dosya_adi` diyerek çalıştırırız.
 
 ## Komut satırından arama yapmak;
 sudo find / -iname 'aranacak_dosya' -print
