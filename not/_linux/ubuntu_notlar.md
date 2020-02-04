@@ -23,7 +23,9 @@ sudo apt autoremove
 Önce ll komutu ile dosya çalıştırılabilir mi ona bak. Ubuntu'da yeşil renk oluyor. Değil ise ```chmod +x dosya_adi``` diyerek dosyayı çalıştırılabilir yaparız. Sonra da `./dosya_adi` diyerek çalıştırırız.
 
 ## Komut satırından arama yapmak;
+```sh
 sudo find / -iname 'aranacak_dosya' -print
+```
 
 ## Apache web server kurmak;
 - sudo apt-get install apache2 apache2-utils -y
@@ -33,66 +35,79 @@ komutu ile kolayca edit edilebilir.
 
 ## Tomcat kurmak;
 (https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04 )
-- sudo apt-get remove apache2
-- sudo apt-get update
-
-- sudo groupadd tomcat
-- sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
-- cd /tmp
-- curl -O http://apache.mirrors.ionfish.org/tomcat/tomcat-8/v8.5.15/bin/apache-tomcat-8.5.15.tar.gz
-- sudo mkdir /opt/tomcat
-- sudo tar xzvf apache-tomcat-8*tar.gz -C /opt/tomcat --strip-components=1
-- cd /opt/tomcat
-- sudo chgrp -R tomcat /opt/tomcat
-- sudo chmod -R g+r conf
-- sudo chmod g+x conf
-- sudo chown -R tomcat webapps/ work/ temp/ logs/
-- sudo update-java-alternatives -l
-- sudo nano /etc/systemd/system/tomcat.service
-- sudo systemctl daemon-reload
-- sudo systemctl start tomcat
-- sudo systemctl status tomcat
-- sudo systemctl enable tomcat
-- sudo nano /opt/tomcat/conf/server.xml
-- sudo systemctl restart tomcat
+```sh
+sudo apt-get remove apache2
+sudo apt-get update
+sudo groupadd tomcat
+sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
+cd /tmp
+curl -O http://apache.mirrors.ionfish.org/tomcat/tomcat-8/v8.5.15/bin/apache-tomcat-8.5.15.tar.gz
+sudo mkdir /opt/tomcat
+sudo tar xzvf apache-tomcat-8*tar.gz -C /opt/tomcat --strip-components=1
+cd /opt/tomcat
+sudo chgrp -R tomcat /opt/tomcat
+sudo chmod -R g+r conf
+sudo chmod g+x conf
+sudo chown -R tomcat webapps/ work/ temp/ logs/
+sudo update-java-alternatives -l
+sudo nano /etc/systemd/system/tomcat.service
+sudo systemctl daemon-reload
+sudo systemctl start tomcat
+sudo systemctl status tomcat
+sudo systemctl enable tomcat
+sudo nano /opt/tomcat/conf/server.xml
+sudo systemctl restart tomcat
+```
 
 tomcat dizini sahibini değişttirmek için;
-- sudo chown -R chi /opt/tomcat/
+```sh
+sudo chown -R chi /opt/tomcat/
+```
 
 ## Tomcat 8080 portunu 80. porta yönlendirmek;
-- sudo iptables -t nat -A PREROUTING -i wlan0 -p tcp --dport 80 -j REDIRECT --to-port 8080
-- sudo /etc/init.d/netfilter-persistent save 
+```sh
+sudo iptables -t nat -A PREROUTING -i wlan0 -p tcp --dport 80 -j REDIRECT --to-port 8080
+sudo /etc/init.d/netfilter-persistent save 
+```
 
 ## Bir servisin durumunu görüntülemek, servis başlatmak, servis durdurmak;
-- service apache2 status
-- sudo service apache2 stop
-- sudo service apache2 start
-- sudo service apache2 restart
+```sh
+service apache2 status
+sudo service apache2 stop
+sudo service apache2 start
+sudo service apache2 restart
+```
 
 ## ISO imajı USB ye yazarak boot edilebilir USB oluşturmak.
-- sudo fdisk -l
+```sh
+sudo fdisk -l
+```
 komutu ile USB diskin harfi tespit edilir. Önce komut çıktısına bakıp sonra USB yi takarsan daha emin olursun harfinden.
-- sudo dd if=kali-linux-2016.1-amd64.iso of=/dev/sdb bs=512k
+```sh
+sudo dd if=kali-linux-2016.1-amd64.iso of=/dev/sdb bs=512k
+```
 komutu ile de dosya USB'ye kopyalanır. 512 kopyalama hızıdır. Tavsiye edilen.
 
 ## Java Kurmak.
 Tar.gz uzantılı dosya oracle sitesinden indirilir.
-
-- tar -xvf jdk-8u91-linux-x64.tar.gz 
-- sudo mkdir -p /usr/lib/jvm 
-- sudo mv ./jdk1.8.0_91 /usr/lib/jvm/ 
-- sudo update-alternatives --install "/usr/bin/java" "java" 	"/usr/lib/jvm/jdk1.8.0_91/bin/java" 1 
-- sudo update-alternatives --install "/usr/bin/javac" "javac" 	"/usr/lib/jvm/jdk1.8.0_91/bin/javac" 1 
-- sudo update-alternatives --install "/usr/bin/javaws" "javaws" 	"/usr/lib/jvm/jdk1.8.0_91/bin/javaws" 1 
-- sudo chmod a+x /usr/bin/java 
-- sudo chmod a+x /usr/bin/javac 
-- sudo chmod a+x /usr/bin/javaws 
-- sudo chown -R root:root /usr/lib/jvm/jdk1.8.0_91/ 
-- sudo update-alternatives --config java 
-
+```sh
+tar -xvf jdk-8u91-linux-x64.tar.gz 
+sudo mkdir -p /usr/lib/jvm 
+sudo mv ./jdk1.8.0_91 /usr/lib/jvm/ 
+sudo update-alternatives --install "/usr/bin/java" "java" 	"/usr/lib/jvm/jdk1.8.0_91/bin/java" 1 
+sudo update-alternatives --install "/usr/bin/javac" "javac" 	"/usr/lib/jvm/jdk1.8.0_91/bin/javac" 1 
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" 	"/usr/lib/jvm/jdk1.8.0_91/bin/javaws" 1 
+sudo chmod a+x /usr/bin/java 
+sudo chmod a+x /usr/bin/javac 
+sudo chmod a+x /usr/bin/javaws 
+sudo chown -R root:root /usr/lib/jvm/jdk1.8.0_91/ 
+sudo update-alternatives --config java 
+```
 son konuttan sonra başka alternatif java yok ise hata verebilir. Var ise şu komutlar ile de diğerleri için de yapılır.
-- sudo update-alternatives --config javac
-- sudo update-alternatives --config javaws
+```sh
+sudo update-alternatives --config javac
+sudo update-alternatives --config javaws
+```
 
 java -version komutu ile kontrol edilebilir.
 
