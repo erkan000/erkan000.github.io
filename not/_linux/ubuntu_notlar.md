@@ -20,7 +20,7 @@ sudo apt autoremove
 ```
 
 ## Program çalıştırma;
-Önce ll komutu ile dosya çalıştırılabilir mi ona bak. Ubuntu'da yeşil renk oluyor. Değil ise `chmod +x dosya_adi` diyerek dosyayı çalıştırılabilir yaparız. Sonra da `./dosya_adi` diyerek çalıştırırız.
+Önce ll komutu ile dosya çalıştırılabilir mi ona bak. Ubuntu'da yeşil renk oluyor. Değil ise ```chmod +x dosya_adi``` diyerek dosyayı çalıştırılabilir yaparız. Sonra da `./dosya_adi` diyerek çalıştırırız.
 
 ## Komut satırından arama yapmak;
 sudo find / -iname 'aranacak_dosya' -print
