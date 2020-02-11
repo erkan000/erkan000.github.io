@@ -49,4 +49,6 @@ collections:
     output: true
   linux:
     output: true
+  sosyal:
+    output: true
 collections_dir: not
