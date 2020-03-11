@@ -19,6 +19,7 @@ Diğerleri
 *   [Mehmet Ali Kağıtçı (SEKA)](http://www.milliyet.com.tr/2004/06/05/business/bus03.html)
 *   [Tarancı'ya şiir yazdıran Abbas Kimdir?](http://www.haber7.com/kultur/haber/692325-taranciya-siir-yazdiran-abbas-kimdi)
 *   [Kendi ayagina sikma](https://www.selcukermaya.com/tr/kendi-ayagina-sikma/)
+*   [Tr'nin ilk bilgisayarı ve programcısı](https://www.capital.com.tr/sektorler/teknoloji/ibm-mudurunden-bir-donemin-oykusu)
 
 Yazılım Testi
 *   [CI - CD Macerası](https://labs.ideasoft.com.tr/ci-cd-maceras%C4%B1-episode-i-iv-test-d%C3%BCnyas%C4%B1na-derinlemesine-giri%C5%9F-3642ed73ff28)
