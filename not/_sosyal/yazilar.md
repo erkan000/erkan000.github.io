@@ -7,8 +7,8 @@ date: 11.05.2018
 Bu sayfada okumaktan keyif alığım bazı yazılar bulunmaktadır.  
 
 Bilişim
-*   [Yapay zeka tarihi ve gelişimi](https://medium.com/deep-learning-turkiye/motivasyon-yapay-zeka-ve-derin-%C3%B6%C4%9Frenme-48d09355388d)
-*   [Mikroservis mimarisine geçmek cesaret ister](https://medium.com/m%C3%BChendis-kafas%C4%B1/mikroservis-mimarisine-ge%C3%A7mek-cesaret-i%C5%9Fidir-49a83f736c04)
+ *   [Yapay zeka tarihi ve gelişimi](https://medium.com/deep-learning-turkiye/motivasyon-yapay-zeka-ve-derin-%C3%B6%C4%9Frenme-48d09355388d)
+ *   [Mikroservis mimarisine geçmek cesaret ister](https://medium.com/m%C3%BChendis-kafas%C4%B1/mikroservis-mimarisine-ge%C3%A7mek-cesaret-i%C5%9Fidir-49a83f736c04)
 *   [Mikroservis dizayn rehberi](https://medium.com/platform-engineer/microservices-design-guide-eca0b799a7e8)
 *   [Microservices vs SOA](https://dzone.com/articles/microservices-vs-soa-whats-the-difference)
 *   [Shazam-in-muzik-arama-algoritmasi-nasil-calisir](http://devnot.com/2018/shazam-in-muzik-arama-algoritmasi-nasil-calisir/)
