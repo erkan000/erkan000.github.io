@@ -14,6 +14,7 @@ Bilişim
 *   [Shazam-in-muzik-arama-algoritmasi-nasil-calisir](http://devnot.com/2018/shazam-in-muzik-arama-algoritmasi-nasil-calisir/)
 *   [Fourrier Dönüşümü nedir, nerede kullanılır?](https://evrimagaci.org/fourier-donusumu-internette-muzik-ve-fotograf-paylasimini-mumkun-kilan-matematik-7728)
 
+
 Diğerleri
 *   [Karun Hazinesi hikayesi, LİKYA](https://yikaroglu.wordpress.com/2016/03/05/usak-karun-hazinesinin-garip-hikayesi)
 *   [Mehmet Ali Kağıtçı (SEKA)](http://www.milliyet.com.tr/2004/06/05/business/bus03.html)
@@ -21,13 +22,16 @@ Diğerleri
 *   [Kendi ayagina sikma](https://www.selcukermaya.com/tr/kendi-ayagina-sikma/)
 *   [Tr'nin ilk bilgisayarı ve programcısı](https://www.capital.com.tr/sektorler/teknoloji/ibm-mudurunden-bir-donemin-oykusu)
 
+
 Yazılım Testi
 *   [CI - CD Macerası](https://labs.ideasoft.com.tr/ci-cd-maceras%C4%B1-episode-i-iv-test-d%C3%BCnyas%C4%B1na-derinlemesine-giri%C5%9F-3642ed73ff28)
 *   [Devops yaptık da ne oldu?](https://medium.com/hesapkurdu-development/devops-yapt%C4%B1k-da-noldu-fd3226d5eba4)
 *   [Yazılım Testlerine Genel Bir Bakış](https://medium.com/bili%C5%9Fim-hareketi/yaz%C4%B1l%C4%B1m-testlerine-genel-bak%C4%B1%C5%9F-b6fe6336fa4e)
 
+
 OpsGenie
 *   [OpsGenie Engineering Insights 1\. Etkinlik](https://engineering.opsgenie.com/oginsights-1-microservices-architecture-containers-on-aws-af0da46daede)
+
 
 Threads
 *   [Semaphore Mutex ve Spinlock nedir](https://medium.com/@gokhansengun/semaphore-mutex-ve-spinlock-nedir-ve-ne-i%C5%9Fe-yarar-ba552a17c03)

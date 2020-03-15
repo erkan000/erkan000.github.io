@@ -299,6 +299,8 @@ veya
 - docker pull image			imajı docker hub'dan locale indirir.
 - docker rmi ImageID		imajeID li imajı siler
 - docker inspect image		imaj bilgilerini gösterir.
+- docker image rm xx		imajı siler
+- docker rm xx				container'ı siler.
 
 Burada kaldım, diğer komutlar devam ediyor.
 https://www.tutorialspoint.com/docker/docker_working_with_containers.htm
@@ -311,6 +313,29 @@ https://www.tutorialspoint.com/docker/docker_working_with_containers.htm
 - docker volume ls			volume’leri listele
 - docker volume prune		kullanılmayan volume’leri siler
 - docker system prune 		duran container, volume vs. siler
+
+## Docker wildfly örneği;
+
+Dockerfile'ımızı yazalım;
+
+FROM wildfly
+ADD jsf.war /opt/jboss/wildfly/standalone/deployments/
+USER jboss
+RUN /opt/jboss/wildfly/bin/add-user.sh admin admin --silent
+CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-bmanagement", "0.0.0.0", "--debug"]
+
+Önce Dockerfile dosyamızdan imajı derleriz.
+	docker build --tag=image-name .
+
+İmajımızdan yeni bir container oluşturup çalıştırırız.
+	docker run -d -p 8080:8080 -p 9990:9990 -p 8787:8787 --name container-name image-name
+
+docker start xx		sunucuyu başlat
+docker stop  xx		sunucuyu durdur
+
+docker image rm xx	imajı siler
+docker rm xx		container'ı siler.
+
 
 ## Docker ile WAS çalıştırmak;
 Önce docker imajını docker hub dan bulup çekeriz, birçok versiyon var, benimki 11 olduğu için 11 versiyonunu çekeceğim. Bu aşamada was imajını internetten indirecektir.
@@ -340,6 +365,13 @@ Sunucuyu başlatma ve durdurma için ise çeşitli yollar mevcuttur.
 	/opt/IBM/WebSphere/AppServer/profiles/AppSrv01/bin/startNode.sh
 
 Normalde ./startServer.sh server1 ve ./stopServer.sh server1 ile yapılıyor?
+
+Şu Dockerfile ile kolayca yapabiliriz;
+
+FROM ibmcom/websphere-traditional:profile
+COPY Sample1.war /tmp/
+RUN wsadmin.sh -lang jython -conntype NONE -c "AdminApp.install('/tmp/Sample1.war', '[ -appname Sample1 -contextroot /Sample1 -MapWebModToVH [[ Sample1.war Sample1.war,WEB-INF/web.xml default_host]]]')"
+
 
 ## Docker ile db2
 
