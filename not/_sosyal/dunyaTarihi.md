@@ -1,0 +1,204 @@
+---
+layout: default
+title: Dünya Tarihi
+date: 15.03.2020
+---
+
+
+## 1. Bölüm
+İnsanlığın doğu afrikada başladığı düşünülür. O zamanlar insanlar avcı toplayıcı yaşam sürüyorlardı. Fiziksel olarak çok atletik, dayanıklı insanlardı. Hayvanları avlayarak yaşarlardı. Ateş yakmayı biliyorlardı ve yiyeceklerini pişirebiliyorlardı. Zamanla ilk öncüler ortaya çıktı. Bu insanlar afrikadan çıkmayı başaran ilk insanlardı. Hayvanların göç yollarını takip ederek Afrikadan ayrıldılar. 10 bin yıl önce Kızıldenizi geçerek Arabistan yarımadasına oradan da bütün dünyaya dağılmışlardır.
+
+İnsanlar dünyaya yayıldıktan sonra dünyada mini bir buzul çağı yaşandı. Kuzey yarım kürenin çoğu bölgesi buzullarla kaplandı. Bu çağda insanlar soğuktan korunmak için mağaralarda yaşadı, hayvan kemiklerini dikiş iğnesi yaptı ve üzerlerine hayvan derilerinden giysi diktiler. İlk mağara el izleri bu dönemde çizildi. Bazı kurt türlerini büyük ihtimalle açlıktan bu insanlara yaklaştı ve günümüz köpeklerinin ilk ataları böylece ortaya çıktı. 
+
+MÖ 10000 yıllarında mezapotamyada insanlar yabani tahıl tohumlarını yiyiyorlardı. Bir kadın yere düşen tohumların filizlendiğini keşfetti. Böylece dünyanın ilk çiftçisi oldu ve tarımı keşfetti.Dünyada bugday, pirinç, mısır 3 temel besin maddesi oldu ve halen de öyledir.
+
+Tarım devrimi ile beraber insanlar avcı toplayıcılığa göre daha fazla çalıştığı için boyları 5 cm kısalmış, eklemlerde kireçlenme, diş bozuklukları ortaya çıkmıştır. Nüfus patlaması yaşanmıştır. Tarımla beraber ilk evler ve köyler oluşmaya başlamıştır. MÖ 7000 de Çatalhöyükde bulunan kalıntılar ilk tarım toplumunun kanıtıdırlar. Evler çamur tuğlalardan oluşur, evlerin tepeleri düzdür ve insanlar eve damdan girerlermiş. 1000 yıl boyunca insanlar Çatalhöyükde yaşamıştır.
+
+Tarım devrimi ile ilk çiftlik hayvanları kullanılmaya başlanmıştır. İnsanların evleri yanında hayvanları da vardı. Hayvanları yetiştirmek ise hastalıkların da ortaya çıkmasına yol açmıştır. 2004 yılında 20 yaşında olan bir kadının kemikleri Çatalhöyükte bulunmuştur. Kadının erken ölmesinin sebebi hayvanlardan geçen bulaşıcı hastalıklar olarak tahmin edilmektedir.
+
+Tarım alanında yetiştirilen mahsül, mahsüllerin miktarı, insanlar arasındaki arazi sahipliği gibi durumlardan ötürü insanlar arasında eşitsizlikler oluşmaya başlamıştır. Zengin ve fakir kavramları ortaya çıkmıştır. Tüccar, din adamı, lider, krallar tarım devriminden sonra ortaya çıkmıştır! 
+
+İlk inançlar, ölüler anısına anıtlar yapılmaya başlanmıştır. Güney İngilterede Stone Age bilinen ilk inanç yapısıdır.(Artık Göbeklitepe!) MÖ 3200 yılında Mısırda ise firavun kufu için piramitler yapılmıştır. Mısır, antik çağın en gelişmiş uygurlığıydı. Kendi yazıları vardı ve halk taşlara yazı yazabiliyordu. Bu sayede mısırda hukuk kuralları da yazılmıştı. 
+
+Bir diğer tarım toplumu ise Türkiye Kültepe'de (Kayseri) kurulmuştur. Bu toplum ise ilk ticareti, ilk tüccarları, girişimcileri ortaya çıkarmıştır. İndi ve oğlu Amur kalay ticareti yapmaktadır. Kalay bakır ile karıştırılarak bronz aletler yapılıyordu. İndinin tabletlere yazdığı mesajlar günümüze kadar ulaşmıştır. Tabletlerden oğlunun ilk uluslar arası ticareti yaptığı anlaşılmıştır. Ticaret sayesinde dünya birbirlerine bağlandı. Bronz ticareti yapılan yolları hakimiyet altına alma çabası ilk modern savaşları ortaya çıkardı. İlk savaş MÖ 1457 de şimdiki İsrailde Megido şehrini almak için yapılmıştır. 
+
+
+## 2. Bölüm
+MÖ 1000 yılına kadar dünya kalayı şekillendiriyor ve kullanıyordu. Bu kaynağın azalması üzerine kıbrıs alaşya da demir keşfedildi. Adanın heryerindeki kızıl topraklardan elde edildi. Demir dünyada en çok bulunan 4. elementtir. Onu işlemek için ise daha kaliteli bir ısı kaynağına ihtiyaç vardı. Bu kaynak ise kömür oldu, yani yanmış odun! Bu sayede demir eritilerek şekil verimeye başlandı ve istenen malzemeye dönüştürüldü.
+ 
+MÖ 700 de şimdiki Irakta Asurlular yaşardı. Çok gaddar bir imparatorluktu ve işkence yaparlardı. İşkence ispatları hala duvar çizimlerinde bulunmaktadır. Asusluların doğu komşusu ise Fenikelilerdi. Fenikeliler alfabeyi buldu, geliştirdi, bu alfabeyi yunanlar ve romalılar kullandı, latincenin temeli olmuştur. Bugünkü bütün batı dillerinin temelidir. 
+
+MÖ 542 de Asurlular zayıflayınca Persler dünya sahnesine çıkar. Gelişmekte olan persler kendine saldıran Lidya krallığı başkenti sar'a (Manisa Salihli'deki Sardis antik kenti) saldırırlar. Lidyalılar anadoluda yaşamakta ve çok zenginlerdi. Lidya krallığı parayı bulan uygarlıktır. Lidyalılar perslerin egemenliği altına girmeleriyle antik dünyada para standart olarak kullanılmaya başlar. Pers kralı kirostur. Tarihte akıllı imparator olarak anılır. Dinlere hoşgörü göstermiştir. Lidya kralını danışmanı yapmıştır. Bu sayede imparatorluğu uzun yıllar yaşamıştır. 
+
+Mö 510 da Yunanistanda sparta ve atina, anadolu ve arabistanda hüküm süren Pers imparatorluğu ile karşı karşıya geldi. Sparta demir sayesinde çok iyi savaş aletleri yapardı. Karşılaşmaları ile önlerine iki seçim çıkar, ya pers egemenliğine girecekler ya da savaşıp kendilerini savunacaklardı. Atina seçimini halk oylaması ile yapardı, siyasi kararlar halkın oylama usulüne göre yapılırdı. Oylama beyaz ve siyah taşlarla yapılırdı. Dünyada demokrasi kavramını yunanlılar icat etmişlerdir. Oylamadan savaş kararı çıkar ve çok güçlü pers ordusunu yenerler! Atinalılar bu zaferi partenon anıtı ile anıtlaştırmıştır, demokrasinin simgesidir. Bu zaferi, demir ile ürettikleri yeni savaş aletlerine borçludurlar. (Kıssadan hisse, teknolojide ilerde olan her zaman kazanır!) Ayrıca bu savaşın olduğu yerde sağ kurtulan bazı persler gemilerine binerek Atinaya savaş için yola çıkar. Bunu gören yunan ordusu 42 KM boyunca Atinaya koşar ve şehri kurtarır. Bu zorlu koşu Maraton'un ortaya çıkış sebebi olarak tahmin edilir.
+
+MÖ 500 lerde Hindistanda sidarta isimli zengin bir kişi yaşarmış. Bu kişi hayatın anlamını kendi kendine sürekli sorgularmış. 6 yıl boyunca hindistan ormanlarında gezmiş, insanlar tanımış. Bir ağacın altına oturmuş(Budi ağacı) ve 49 gün oradan kalkmamış. Sonunda iç huzura ulaşıp ve aydınlanmış. Kendisi buda olmuştur. Meditasyonun insanı arzulardan ve isteklerden arındırdığını savunmuştur.
+
+MÖ 356 yılında Avrupada Makendonya kralının oğlu, efsanevi imparator Büyük iskender doğar. 20 yaşında Makendonya kralı olur. Anadolu, persler, orta asya, kuzey afrika hepsini fetheder ve yunancayı imparatorluk dili yapar. Değişik uygarlıkları bir araya getirmiş, pers öğretilerini benimsemiştir. Fakat bu alışkanlıkları makendon komutanları kızdırmıştır. Yunan ve pers uygarlıklarını kaynaştırmak istemiştir ve 2 pers prenses ile evlenmiştir. Fakat 2 yıl sonra 32 yaşında ölür. Yunan kültürü bu dönemde birçok eser bırakır.
+
+Sokrates batı felsesini babasıdır. İnsanın hayatta sorgulaması gerektiğine inanırdı. Hatta Atinada seçimlede bazı insanların oy kullanmaması gerektiğini, oy kullanacak kadar akıllı olmadıklarını düşünürdü. Fikirleri yunan demokrasisini zedeledi gerekçesi ile tutuklanır ve ölüm cezası verilerek öldürülür. 
+
+Afrikada ise tarihteki ilk keşif yolculuğu yapılmaktadır. Finikelilerin imparatoru Hano ise 60 gemi ile denizlerdedir. Başarılarının sırrı ise yine gemide demir kullanılması ve demirden alet edevat yapımıydı. Ayrıca finikeliler alfabeyi geliştirmiştir.
+
+Konfiçyus Çinde mahkemelerde çalışan bir kişiydi. Toplum düzeni için fikirleri ve çalışmaları vardı. Saygı ve iyi insan olmak hakkında fikirlerini insanlara anlatırdı. Öldükten sonra fikirlerini benimseyenler fikirlerini yazmış ve bu felsefe çin toplumunun temelini oluşturmuştur. 
+
+MÖ 221 de Çin imparatorluğu Asya'da kurularak çok güçlendi. İlk Çin imparatoru şi huang di(ying cung?) bu başarıyı yine demiri eriterek yaptığı savaş aletlerine borçludur. Bu sırada Çinliler tatar yayını icat ederler. Tarihteki ilk modüler silah sistemidir. Ayrıca çin seddinide bu imparator yaptırmıştır. 49 yaşında ölümsüz olma umuduyla öldü. Kendisine dev bir mezar yapıldı ve onu yapan zaanatkarlar da diri diri gömüldü. Ölümsüzlüğe inanan bu imparator, öbür dünyada imparatoru korusun diye 8000 kişilik terakota ordusunu yaptırdı. Her biri benzersiz toprak askerler..
+
+MÖ 48 yılında Mısırda Kleopatra, Romalı Jul Sezar ile tanışır ve evlenirler. Fakat mısırlı bir kadınla evlenmesi ve Romanın başkentini mısıra taşıyacağı söylentileri halkı galeyana getirir. Sezar sarayda bir gün süikasta uğrar ve son bıçak darbesini arkadaşı Brütüs yapar.
+ 
+ 
+## 3. Bölüm
+20 yıl sonra Roma imparatorluğu başkenti Romada kuraklıklar gıda sıkıntısına yol açıyor. Romalı mühendisler şehre su taşımak için 70 km lik su kemeri yaparlar ve bu kemerler 1500 yıl ayakta kalır. Yapıyı volkanik tüfleri kullanarak yaptılar çünkü yapının çevresi 50 volkanın etrafındaydı. Romanın gücünün sembolüydü. Surlara imparator klodyus kendi ismini verdi, klodyusun surları! Roma zamanının en gelişmiş şehriydi, 6 katlı evleri, yol altı lağım sistemi, itfayesi, posta teşkilatı vardı. Roma imparatorluğu yapı itibarıyla fethederek yaşıyordu. Fethettiği yerdeki değerli madenleri topluyor ve her fethettiği şehire 7 metre eninde roma yolu döşüyordu, böylece şehirleri birbirlerine bağlıyordu. Fethederek sınırlarını bütün avrupa, anadolu ve küdüse kadar ulaşmıştır.
+
+Bu sırada orta asyada başka bir büyük imparatorluk bulunuyordu, Çin. MS 166 da Romalı tüccarlar Çin'e ulaşıyor. Tüccarlar çin ipeğini almak için oraya gidiyorlardı. Bu tarihe kadar dünya ticareti ipek alış verişi ile yapıyorlar ve onu ağaçta yetişiyor sanıyorlardı. İpek üretimi anlamak için Çin'e gittiler. Çin devleti de ipek üretimini devlet sırrı olarak saklıyordu. İpek, ipek böceğinin ürettiği doğal bir elyaftır. Çin sonraki 300 yıl boyunca dünyanın en büyük ihracatsı olarak kaldı. İpek hindistan üzerinden orta doğuya ve avrupaya taşınıyordu, 8000 km lik ipek yolu!!! Ticaret ile aynı zamanda fikirler, ürünler, kültürler, dinler herşey dünya üzerinde yayılıyordu. 
+
+MS 33 yılında roma impartorluğunun en doğusundaki kudüs şehrinde bir idam gerçekleşir. Nasıralı İsa 3 gün boyunca çarmığa gerilerek vefat eder. Arkadaşları ve ailesi dışında kudüsde gerçekleşen olağan çarmığa gerilişlerdendir. Suriye Şam'da isanın çarmığa gerilişinden 4 yıl sonra aziz pablus(Paul) hristiyanlığı yaymaya başlayacaktır. Şamdan kaçar ve Roma imparatorluğu içinde gizlice 20 yıl boyunca Hristiyanlığı afrikadan romaya kadar yürüyerek yaydı. Dinlerin bu gücü tarihin her anında kral ve hükümdarların gücünü azalttığı için sevilmemiş ve yasaklanmıştır. Hristiyanlık Roma imparatorluğu tarafından da yasaklandı. Hatta hristiyanlığı savunanalar hapislere atılıp, sonrasında arenalarda halk eğlencesi olarak öldürülüyordu. Tarihte Perpetua isimli kadının yazıtlarından görülebilir. M.S. 337 yılında imparator konstantin ölmek üzereyken hristiyanlığı benimsedi. Bu tarihten sonra bütün roma imparatorluğu hristiyanlığı benimsendi, artık hristiyan olmak serbestti. Takip eden yıllarda imparatorluğun doğusunda yeni bir hristiyanlık başkenti doğdu, Konstantinapolis yani İstanbul!!! Ve şehrin kalbine bütün romadaki tapınaklardan daha büyük olan bir kilise inşa edildi, kutsal bilgelik kilisesi, Ayasofya! 
+
+## 4. Bölüm
+MS 455 de Roma imparatorluğu başkenti saldırı altındadır ve imparatorluk çöküşe geçmiştir. Batı roma yıkılır. Anglo saksonlar britanyayı, frenkler galyayı (bugunkü fransa), vizigotlar ispanyayı ele geçirdi. Avrupa karanlık çağa girer. 1500 yıl boyunca Avrupa karışıklık içindedir. Zulüm ve savaşlar avrupada kol gezer. 
+
+Ahmet bin fattan yeni ticaret yolları arıyordu. Bu arayışı sırasında Vikingleri keşfetti. Çok vahşi, kaslı, hayasız, alkolik ve barbarlardır. Ana vatanları iskandinavyadır. Oradan büyük gemileriyle nehirleri ve denizleri geçerek Batı rusya ya kadar indiler ve oraya yerleştiler. Rusya adını onlardan aldı. Kürek çeken adam anlamına gelen RAS derlerdi. Ticareti arapların altınına karşı, kürk ile yaparak geliştirdiler! Ardından vikingler güçlü gemileri ile avrupayı yağmalamaya başladı. Vikingler kiev, dublin, rua, ingiltere york u şehir yaptılar. Yerleşik düzene geçip, hristiyanlığı kabul ettiler. 
+
+MS 620 yılında Mekkede Etiyopyali bir köle olan Bilal-i Habeşi islamiyetin ilk inananlarındandır. Hazreti Muhammed o tarihe kadar imparator ve kralların tapılası insanlar olmadığını, bütün insanların eşit olduğunu, insan hayatının allahtan geldiğini ve tek yaratıcının allah olduğunu insanlara öğretmektedir. Kabileler ise Hazreti Muhammed'e inananları cezalandırılıyor ve öldürülüyordu. Bilal-i Habeşi de bu şekilde cezalandırılır. Hazreti Muhammed güçlenince Kabile şefleri Hazreti Muhammede karşı savaş açar ve Bilali de alarak Medineye kaçar. İslamiyet aynı dinden olanlarla savaşı yasaklar. Bilal ilk cami yapımına yardım eder ve ilk ezanı Bilal-i Habeşi okur. İslamiyet tarihteki bütün dinlerden fazla yayılmıştır ve Roma imparatorluğundan bile daha fazla alana yayılmıştır. 
+
+9. yüzyılda islam devleti altın çağını yaşar, sınırları Doğuda bugunkü pakistandan batıda İspanya'ya kadar uzanmaktadır. Matemetik ve bilimde zamanının en gelişmiş toplumu olur. El-harezmi o zamanlarda dünyanın çevresini ölçmüştür. Bunu islam devletinin haritasını çıkarmak için yapmıştır. Ayrıca algoritmaların ve matematik formüllerinin temellerini atmıştır. Algoritma ismi el-harezmi isminden gelir. Cebri keşfetti ve rakamları bulmuştur. 0 ile 9 arasındaki rakamlar hala arap rakamları olarak bilinir. Eğitim ve öğretimin en önemli devletidir. En batıdaki Cordoba ise islam devletinin en önemli bilim ve kültür şehridir. Merkezinde bir camii bulunur. Camiide islam ve roma mimarisi bir arada görülebilir. Cordoba'da 3 dinden insanlar yaşamış, şehir zamanının avrupa bilim şehri olmuştur. 37 kütüphanesinde roma imparatorluğu ve antik yunanistandan kurtarılan bilgiler saklanır. İslam dini sayesinde islam bilimleri teknoloji geliştiriyor. Bu sayede avrupada bilimin devam etmesi sağlanıyor! Araplar bilimde bir sıçrayış yaptılar. Şehirde abbas bin firnaz isimli mucit büyüteç, su saati gibi icatları yapar. Uçmak için kendine kanat yapar ve şehirde uçmuştur! Wright kardeşlerden 1000 yıl önce! Uçan ilk insandır!! Kraliyet kütüphanesinde 400 bin kitap olduğu söylenir.
+
+Büyük okyanusun tam ortasında Paskalya adasında polonezyalılar heykel yapmaktadırlar. Maoyi heykelleri. Heykelin en büyüğü 90 ton ağırlığındadır! Nasıl yapıldığı hala bilinmemektedir.
+
+Bu sırada orta doğuda kudüs haçlılar tarafından kuşatma altındadır. Haçlı seferleri din adına yapılmış en kanlı savaştır. 11. yüzyılda islamiyet ve hristiyanlık arasında din savaşları yaşanmıştır. İslamiyet arabistan, anadolu ve afrikada, hristiyanlık ise avrupada yayılmıştır. Papa islamiyetin ilerleyişini durdurmak için hristiyanları silahlandırmaya çağırdı ve haçlı seferleri başladı. Bunun için seferlere çıkanlara cennet vadetti ve günah affedilecek dedi! Dini kullanarak öldür dedi! 2 asır boyunca devam etmiştir.
+
+
+## 5. Bölüm
+12. yüzyılda mogolistanda, Moğolların efsanevi lideri Cengiz Han(Timuçin) doğar. Moğolların sırrı atlarıdır, at üstünde yer, içer ve uyurlardı. Orduları çok hızlıydı. Günde 500 km gidebiliyorlardı. 1215 yılında küresel ısınmadan ötürü kuzey çinde yaşayan moğollar aşağı doğru çine, pekine saldırıyordu. Moğollar insalık tarihinin en büyük imparatorluğunu kurmuştur. Başarısının anahtarı iletişimdi. Atlı habercileri vardı. Her 50 km de bir atlı istasyonları vardı. Uygurlardan alfabeyi, çinlilerden silah(top, mancılık) yapmayı öğrendi. 1219 yılında orta asyaya girerek islam devletini işgal etti. İslamiyetin gelişmesi engellemişlerdir. Cengiz han ardından 100 yıllık barış ve refah sürecini başlatır. Bu ipek yolunun tekrar açılmasını sağladı. 13. yüzyılda meraklı bir Venedikli bunu fırsata cevirerek çinden mal getirmek ister. Marco polo ipek yolundan giderek Cengiz hanın torunun kubilay hanın sarayına gider. 1275 yılında saraya varır. 17 yıl Kubilaya hizmet eder ve ülkesine döner. Gördüğü zenginlikleri, icatları halka anlatır. 
+
+Seyyahlar ve ticaret sayesinde Doğudan batıya kağıt, matbaa ve barut taşındı. Aynı zamanda bakterilerde taşındı. Pirelerden veba taşındı. Avrupanın yarısı vebadan öldü. 1348 de italya sienada şehrin % 70 i vebadan öldü. 
+
+Amerika kıtasına ise veba ulaşamadı. Bu kıtada hiç at yok, demir aletler yok, tekerlekli arabalar yok. Yiyecekler ant dağlarının tepelerinde tarım yaparak sağlıyorlar. Burada dünyanın bilmediği patates, domates, mısır yetiştiriliyor. İnca imparatorluğu yaşıyor. Paçakuti, inca imparatorluğu lideridir. Amerikanın en büyük imparatorluğudur. 
+
+
+## 6. Bölüm
+11. Yüzyılda Kuzey Afrikalı tüccarlar Sahra ticaret yollarını da kullanmaya başladılar. Afrikanın batısında yer alan Mali imparatorluğında yer alan Timbuktu şehri de bu ticaret yolunun önemli bir durağıydı. Zamanla yerel halk tüccarlardan İslamiyet’i öğrenmeye başladı. Müslümanlar, sayıları arttıkça yönetimde de söz hakkı sahibi olmaya başladılar. Aradan çok zaman geçmeden 1312 senesinde Afrika krallarının en güçlüleri arasına Müslüman bir kral girecekti. Adı Kanku Musadır. Altın ve tuz zengini oldu ve şehrinde herkese zekat verirdi, hatta şehirde zekat vereceği fakir insan kalmamıştı. Kanku Musa hem zekat dağıtmak, hemde hacca gitmek için yola çıkar. Kanku musa 1324 temmuzunda Kahireye varır. Altın zenginidir. O kadar çok altını vardır ki, kahirede dağıttığı altınlar, altın piyasasını çökme noktasına getirir. 1400 lü yıllarda avrupaya gelen altının 3 de 2 si maliden gelir. İslamiyeti benimsemiştir. 
+
+ibni batuta 1350 yılında Fastan yola çıkarak dünyayı turlayan bir gezgindir. Gezi notlarında dünyayı gezerken vebadan ölenleri yazmıştır. Sahra çölüne geldiğinde ise burada çok fazla sıcaklıktan ötürü hastalığın olmadığını görür. Yola devam ederken ise bu sıcakta insanların nasıl hayatta kaldığını sorgular. Çözümü tuzdur. Suyu emer ve bakterilerin üremesini engeller. Bu sayede eskiden yiyecekler tuzlanarak saklanıyordu. Milyonlarca yıl önce sahra denizdi, bu sebepten çölün ortasından tuz çıkıyordu. İbni batuta sonunda sahrayı geçti ve hedefi olan malinin şehirlerine vardı.(Timbuktu şehri) O zamanlar Tuz değerli olduğu için karşılığında altın alınıyordu! Mali de Nijer nehri yatağında akıyordu. Dünyanın bilinen altın rezevrelerinin 3 de 2 si batı afrikadaydı. Böylelikle mali en zengin ülke, ilk üniversitesi var, kütüphanesi var ve parşomene yazıyorlardı. Afrikanın altın çağıydı. Fakat bu gibi gezginler sayesinde altın afrika kıtasından çıktı ve avrupaya ulaştı. 
+
+Altın sayesinde Venedik büyük bir ticaret merkezi oldu. Orda doğu ipeği, hindistan baharatları hep burada satılırdı. Bu sayede venedik finans ve modern bankacılığın doğduğu ayrıca kapitalizmin de ortaya çıktığı yerdir. Altın venedikte uluslararası para birimi olan lukaya çevriliyor, tüccarlar ise emanetçi diyebileceğimiz kişilere lukalarını emanet ediyordu. Modern bankacılık böyle italyada başlıyor. Banko denilen sıralarda paralar el değiştiriyordu! İnsanlar bu kişilerden kredi çekerlerdi! Bu zengin banker insanların avrupada yaptığı en önemli şey ise rönesansı finanse etmektir. Rönesans insanlığın gördüğü en önemli kültür ve sanat devrimidir. 
+
+1356 da Çinde ise veba yüzünden öksüz kalan fakir bir genç, karısı ve silah uzmanı bir arkadaşları moğolları yenmek üzere 3 kişilik bir isyan çetesi kurar.(Kızıl türbanlılar!) Çao yu yeni bir icat yapar. Hali hazırdaki barutu patlama yapmak üzere kullanır ve ilk silahı icat eder. Tüfek kullanarak bir köylü ordusu dünyanın en korkunç ordusu olan moğolları çinden sürüyor! Nanjing kentini alarak başkent yaptı ve Ming imparatorluğunu kurdu. 300 yıl yaşadı ve yasak şehiri kurdu. Çin seddi ming ler tarafından bitirildi. 
+
+1450 almanya Meinz şehrinde Yohannes Gutenberg matbaayı icat etmiştir. Aslında kaynağı çindi, 700 yıl önce çinliler tahta harflerle baskı yapıyorlardı. Gütenberg ise endüstriyel hale çevirdi. Matbaadan önce kitaplar sadece zenginlerde ve din adamlarındaydı. Bir kitabı çoğaltmak ise el yazısı ile çok falza zaman alıyordu. Matbaa ile kitaplar her insana ulaştı ve çok hızlı kopyalandı. Bilgi her insana yayıldı. Bilgi çağı böylece başladı! İnternetin icadı ile benzerlik taşır. 
+
+1476 yılında Portekiz lizbon şehrinde Kristof Kolomb yaşamaktadır. Matbaanın yaygınlaşmasıyla o zamanın incilden sonra en çok basılan ikinci kitabı, Venedikli Marco polonun dünyanın harikaları kitabının etkisinde kalır. Kardeşide haritacıdır. Bir plan yaparlar. Doğuya varmak için batıdan gitmeyi hayal ederler. Yani marko polo gibi asyaya gitmek isterler ve arada sadece okyanus olduğunu düşünürler. 
+
+İspanya 700 yıldır kuzey afrikalı müslüman maribilerin egemenliğindedir. Kendi şehirlerini kendileri birer eğitim merkezi olarak kurmuşlardır. Antik dünyanın bilgisini korurlar. İspanyol orduları ise ülkeyi hristiyanlık adına geri almak istemektedir. Din savaşı çıkar, fernandez de Cordoba isimli general savaşı yeni silahları kullanarak kazanır. İspanyolların elinde yeni icat edilen silahlar vardır. çinilerden aldıkları silahları daha da geliştirler ve müslümanları afrikaya geri çekilmeye zorlarlar. Yeni bir güç doğar, ispanya. Teknoloji bir daha galip gelmiştir. 
+
+
+## 7. Bölüm
+Amerika da Aztekler diğer dünyadan bağımsız hüküm sürüyorlardı. Bir çok kabile vardı. O zamanın en büyük şehri Aztek başkenti Meksikada bir dağın tepesinde kurulmuştu(penoçtitkan) ve içinde 30 metrelik bir tapınağı vardı. Silahları özel bir camdı. Sanata, şiire önem veren, kanunları olan uygar bir topluluktu. Sadece tanrılarının insan kanı istediğine inanıyorlardı. Bu sebepten esirleri meydanlarda savaştırıyorlardı. Kanları hasatlarının kaliteli olduğuna inanıyorlardı. Hasatları ise mısırdı!
+
+O zamanalarda Constatinapolis, hristiyan dünyasının doğu başkenti. Romanın ilk hristiyan imparatoru constantin tarafından kuruldu. Şehrin merkezine ayasoyfayı kurdu, zamanının en büyük katedrali. Şehrin 6.5 km uzunluğunda 30 metre yüksekliğinde surları var ve o güne kadar kimse bu surları aşamadı. Fatih sultan mehmetin Topları çok etkiliydi. 1453 yılında 70 top ile vardıyalı şekilde topçular 53 gün boyunca top ateşine tuttular. Hristiyan constantinapolis müslüman istanbul oldu. Ticaret yolu müslümanlara geçti.
+
+Yeni ticaret yolları arayan Bartalemeo Diyaz güney afrikada hindistandan avrupaya yeni bir yol arıyordu. Fırtınadan kaçarken kayboldu, denizde 13 gün kaldı ve sonunda ümit burnunu keşfetti. Bu keşif istanbuldan geçen baharat yolunu bypass ediyordu. 50 yıl içinde burası dünyanın yeni ticaret bağlantı noktası olacaktı. 
+
+1492 yılında ispanyol denizciler(başlarında italyan cristof colomb) doğuya kestirme bir yol arıyordu.(Doğuda ipek ve baharat var, mevcutta ipek yolu, baharat yolu vardı.) Avrupadan çine kestirme bir yol arıyorlardı. Denizde 5 hafta seyahat ederek çine ulaştığını sanarak bahamalara vardı. Bahama adalarında bir kabile vardı ama önce adaya avrupanın hastalığı geldi. Colomb ise altın arayışındadır. Adadan birsürü altın alarak geri dönüyor. Bu avrupanın amerikadan altın avcılığına başlamasına neden oluyor. 
+
+(İnka imparatorluğu patavalha kralı, pizaro saldıran kişi olarak geçiyor!)
+Fernan cortez, colomb dan 28 yıl sonra tenoştiklan da(amerika kıtasında) altın arıyordu. Aztek imparatoru cortez ve adamlarının sarayda ağırladı. Fakat cortez imparatoru rehin aldı. Halk bu duruma isyan etti. Cortez imparatoru halkı durdurması için tehtid eder ama halk imparatoru da öldürür. Cortez zar zor altınları ile ispanya ya geri kaçıyor ama avrupadan gelen adamlar çiçek virusunu azteklere farkında olmadan bulaştırırlar ve halkın yarısı çiçek hastalığından ölür. Cortez ise kaçışından 1 yıl sonra amerikaya geri döner ve aztekleri ele geçirir. 
+
+İspanya amerikadan yaklaşın 45bin ton altın ve gümüş yağmalamıştır. Yağmaladığı altını en fazla kullandığı yapı sevilla katedralidir. Bu altın İspanyayı avrupanın en zengin devleti yapmıştır ama aynı altın katolik kilisesinde protestanlara karşı savaşta da kullanılmıştır. 1596 da İspanya iflas eder. 
+
+1495 yılında avrupada rönesans dönemi başlar. Milanoda yaşayan leonardo da vinci girişimci bir mühendis, şair ressam ve sanatçıdır. Kendini islam ve yunan bilimi ile geliştirmiştir. Sanat ile bilimi harmanlamıştır. 
+
+1517 yılında Romada yağmalanan hazinelerin bir kısmı katotik kilisesinin eline düşer ve dünyanın en büyük basilikası olan saint petesburg katetrali için papa para toplar. Fakat bu parayı hristiyanların dini duygularını sömürerek toplar. Papa Avrupada parayla cennet bileti satar. Fakat bir rahip bu duruma karşı çıkar, adı Martin Luther King. Kiliseye karşı itiraz eder, matbaa nın icadıyla da bu başkaldırı avrupaya yayılır. Papa da dinden çıkarır, afaroz eder. 1521 yılında Luther, bazı prensler ve saksonyalı frederick incili yeniden yorumlar, almancaya çevirir ve protestanlık doğmuş olur. Ondan isyan alan halk da karışır ve avrupa bölünür. Güney avrupa katolik, kuzey avrupa protestan olarak kalır ve avrupada din savaşları başlar.
+
+1570 de rusya kralı korkunç ivan fakir olan ülkesini kalkındırmak için bir yol arıyodu. Rus toprakları verimsiz ve doğal kaynak bakımından fakirdi. O tarihlerde mini bir buzul çağı yaşandı ve kürke talep arttı. Rus ordusu kürk için Moskova'nın doğusuna ava çıkar, ve post toplamaya başlar. Hayvanların Sibiryada daha fazla olduğu görülür ve sibirya için savaşılır, sibirya alınır ve pasifiğe kadar toprakları genişler. Günümüzde Rusya petrol ve doğal gazının %80'ini zengin Sibirya topraklarından elde eder. Sibiryanın fethi rusyayı rusya yapmıştır!
+
+
+## 8. Bölüm
+1579 yılında İngiliz deniz korsanları devlet eliyle ispanyol gemilerinden mal çalıyordu. Ant dağları dünyanın en zengin gümüş damarlarına sahiptir. Potosi yerin adı. 20 yıl içinde bütün gümüş bitiyor. İspanyol Bartolema Medina gümüş için amerikaya gider. Ant dağlarında biten gümüşü kayalardan çıkarmak için deneyler yapıyor ve sonunda bakır sülfat ve civayı kullanarak gümüşü kayadan ayırıyor. Potosi dünyanın en büyük madeni olur ve ispanyollar çıkardıkları gümüşü sikkeye dönüştürür, gümüş sikke. İspanyol sikkeri bütün dünyaya yayılır. 1857 ye kadar US de geçerlidir. İspanyol kraliyet tacının tomarı ve tacı günümüz dolar simgesini oluşturdu! Bu sayede global bir pazar oluştu. Yeni küresel kur ortaya çktı. Yeni ticaret yolları ve şehirleri doğdu, sevilla londra amsterdam gibi. Hollanda en zengin ülke oldu.
+
+Amsterdam da ise 1639 yıllarında yeni gümüş sikkeler burada da kullanılıyor. Hollandalılar deniz nakliyatının yarısı yapıyor(dünyanın en büyük donanmasına sahip şirketi vardır) ve en zengin insanlar dünyada amsterdamda ortaya çıkıyor. Amsterdam dünya baharat ticaretinin merkezi olmuştur. Bütün zenginler amsterdam da olunca yeni zevkler ortaya çıkıyor. Türkiyeden gelen nadide laleler çok değerleniyor. Daha çok spekülatorler yapıyor bu işi. Hatta gelecek yılın lalelerini satıyorlar, ilk mevduat, hisse dünyada bu sayede doğuyor. Lale fiyatları çok fazla artıyor. Fakat balon yakın zamanda patlıyor.
+
+Kuzey amerikaya dini inançlarını yaşamak için ingiliz hacılar isminde bir grup yerleşmeye karar verir. İndikleri yerde oranın yerli amerikalıları ile temasa geçerler. Yerlilerde ingilizce bilmektedir, gelen tüccarlardan öğrenmişlerdir. Onlardan amerikada yaşamayı öğrenirler, balık tutmayı, mısır yetiştirmeyi öğrenirler. Şimdiki amerikalıların %10 u bu soydan gelir. 100 yıl içinde avrupa ile ticaret edebilen şehirler kurarlar, boston, new york vs.. Bu kişiler amerikanın kurucularıdır!
+
+Bu sırada şeker afrikada doğmaktadır. Portekizliler afrikada sömürge arayışındadırlar. Çünkü yeni şeker kamışı tarlalarında çalışacak köleye ihtiyaçları vardır. 250 yıl boyunca avrupalılar afrikadan köle getirdi ve insanlar satıldı. Bu insanar yeni dünyalarda çalıştırıldılar. Bu sebepten de günümüz amerikasının 5 de birinin kökeni afrikalıdır!
+
+Amerika kıtası zenginlikleri, Hindistan hükümdarını baharatlar karşılığında gümüş sikke alarak en zengin adamı yapar. Bu kişi Hindistan imparatoru Şah Cihan'dır. 1641 yılında biricik karısı ölüyor. Onun anısına mezarını yani tac mahali yaptırıyor. İçinde mücevher ile dolu, gümüş sayesinde müthiş bir yapı. Aranze oğlu gaddar
+
+
+## 9. Bölüm
+17. yüzyılda kuzey amerikada hacıların 2. kuşağı yaşıyordu. Amerika kıtasında ise hacılardan 6 kat daha fazla yerli halk yaşıyordu. Yerli halk hala avcı-toplayıcı yaşam sürüyorlardı. Salem'de insanlar ise cadı avı hikayesine kapılmış ve bir sürü ölümler gerçekleşiyordu. 
+
+Sibiryada insanlar kürk arıyorlardı, altından 4 kat daha kıymetliydi. Rusya alaska ve sibiryadaki, amerika ise kendi kıtasındaki kürklü hayvanları avlayarak ilerliyorlardı. New york kürk ticareti için kurulmuştur. Kürk, şeker, tütün, kahve gibi ürünler için ticaret ve dünya gelişerek büyüyor. 
+
+Bu sırada bilim de gelişmeye başlıyor. Önce Galileo Galilei ilk teleskopu yapıyor. Galileo dünyanın kendi etrafında ve güneşin etrafında döndüğünü keşfetmiştir. 1632 de bu bulgularını yayınladı ve kiliseye karşı çıkmış oldu. Katolik engizisyon mahmesinde yargılandı ve incile karşı çıktığı gerekçesi ile ömür boyu hapis cezasına çarptırıldı. Teleskop ile denizciler daha iyi yön bulabildiler. James Cook adlı gezgin ve araştırmacı pasifik okyanusunu geçerek avustruralya(okyanusya) kıtasını keşfediyor. Orada yerli halk aborjinler vardı. İngiliz halkı adına kıtaya el koydu. Adaya aslında ingiliz mahkumlar gönderiliyordu. Mahkumların başındaki avustralyanın ilk valisi kaptan Arthur Philip abotjinler ile iletişime geçer ve biri ile arkadaş olur. O aborjinin adı Benelong'dur, ona ingilizce ve medeniyeti öğretilir. İngiltere, Sdneydeki ünlü opera evinin olduğu noktaya benelong noktası olarak opera evini inşaa eder. Beyaz göçmenler 20 bin aborjini öldürür ve avupadan gelen çiçek ve frengi ile çoğu ölür. Günümüzde aborjinlerin %80 i ölmüştür.
+
+Bu arada Avustralya da tesadüfen dünyanın en büyük canlısı olan büyük set resifleri keşfedilir.
+
+Amerikadaki 13 sömürge britanya himayesi altında yaşıyordu. Yönetimi ise britanyadandı. Bu sömürgelerin 3 de biri 1 i britanyalıydı. Hiçbir siyayi hakları yoktu. Britanyalılar Boston eyaletinde amerikalı yerliler için çay vergisi almaya başlayacağını duyurdu ve olaylar başladı.
+ 
+New England da 1772 de kerestede çalışan işçiler amerika kıtası ağaçlarını ingilizler için işlerler. Bir gün bostonda bir isyan çıkar ve ingiliz askerler sivilleri öldürür. Boston katlıamı. Kerestelerin en iyisini de ingiliz donanması için el koyarlar. Sonunda isyanlar artıyor ve 1 milyon dolarlık çay denize dökülüyor.(Boston çay partisi) 1776 da bejamin franklin amerikadaki 13 koloninin ingiltereden bağımsız olduğunu söylüyor ve bağımsızlık bildirgesi yayınlanıyor. Amerika kuruluyor.
+
+Bilimsel gelişmeler, kilise ,batıl inanç ve hükümdarların egamonyasını kırıyor ve dünyayı değiştiriyor. 
+
+
+## 10. Bölüm
+1781 de amerikada isyancılar ingilizleri yenerler. Amerikan devrimi gerçekleşir, insanın kişisel özgürlüğü üzerine şekillenir. Ardından dünyanın çeşitli ülkelerinde özgürlük isyanları devletlere karşı gerçekleşir.
+
+1789 yılında Fransada ise vergiler halkı iyice bezdiriyor ve zengin ile fakir beraber eylem yaparak isyan çıkarıyor. 4 yıl içinde kral 16. loui'yi devirirler ve Özgürlük, eşitlik, kardeşlik istekleri ile isyan çıkarırlar. İnsanlar seçme seçilme ve eşitlik isterler. 1792 de Fransa cumhuriyeti ilan edilir. 16. loui idam edilir. 1000 yıllık krallık biter. Fakat idamlar o kadar çok yapılır ki işin felsefesi unutulur ve 30 bin kişi idam edilir. Fransız ihtilalinden 10 yıl sonra devrimci hükümet zayıflar. Napolyon Bonapart kendini fransa kralı ilan eder. 
+
+Dünyadaki özgürlük, eşitlik, demokrasi dalgası afrikayada yayılır ve Haitide yerli halk sevinç gösterisi yapar. Çünkü Fransa burayı sömürmektedir. Afrikalılar beyaz sömürgecilerden kurtulmaya ant içer ve isyanlar başlar. 3 yıl sonra köleliği fransızlar sona erdirir ve 10 yıl sonra haiti dünyanın ilk siyasi cumhuriyeti ve latin amerikadaki ilk bağımsız ülke olur. 
+
+Sanayi devrimi de olmak üzere. 1768 de ingilterede orkwright pamuğu ipliğe çeviren bir makine üretiyor. İlk fabrikayı kuruyor ve sanayi devrimi başlıyor. Elde yapmaktan makinede yapmak iş hacmini olaganüstü arttıyor. 1850 yılında ingilteredeki fabrika sayısı 4000 e varıyor. Kömür kullanılarak buhar ile lokomotif yapılıyor ve demiryolları kuruluyor. 5000 yıl önce at ne yaptıysa şimdi de trenler aynısını yapılıyordu. Fabrikalar ve ulaşım ise mega kentlerin oluşmasına yol açtı. Kentler ise hastalığa yol açtı. 1854 londrasında dünyanın en gelişmiş metropolünde 2.5 milyon kişi yaşıyordu. Kolera salgını başladı ve bütün dünyaya yayıldı, yayılmasında ulaşımın gelişmesi önemli bir rol oynadı. İngiltere sanayi devrimi ile dünyanın en güçlü ülkesi oluyor. 
+
+1796 da dünyadan 7 kişiden biri çiçek hastalığından ölüyordu. Edward jenner İnek çiçeğini insana aşılayarak dünyada en çok hayat kurtaran doktor olmuştur. Şu anda dünyada çiçek hastalığı bitmiştir.
+
+Çinde ise 1838 de afyon yasaklanıyor. Afyonu ingilizler çinlilere satarak para kazanıyor, çünkü çok karlı. Çin yasaklayınca aralarında savaş çıkıyor. Çinliler sayıca 6 kat fazla olmalarına rağmen teknolojik olarak ilerde olan ingiltere az olmalarına rağmen kazanıyorlar. Daha gelişmiş silahlar, daha hızlı ulaşım, daha hızlı lojistik. 
+
+
+## 11. Bölüm
+1865 da Amerikan iç savaşı yaşanmaktadır. Kuzey de 4 silah fabrikası ile güçlü bir taraf, güneyde ise tarımla uğraşan teknolojik olarak geride olan halk vardı. Tek gelirleri tütündür. Abraham Lincoln ABD de köleliği bitirir ve güney ile kuzeydeki tarım savaşı biter. Savaş bittikten sonra icatlar yapılmaya başlanıyor. 40 yılda 300 bin patent alınıyor. Seri üretim doğuyor yani az maliyetle çok ürün üretiliyor ve bu dünyaya adım adım yayılıyor. 
+
+1839 yılları, Ticaret bakımından çinliler dünyaya herşeyi sınırsız satıyor fakat almak konusunda katı kurallar vardı. En çok satılan ürün çay'dı, ingilizler çokça çay satın alıyorlardı. Ödeme ise gümüş ile yapılıyordu ve çinliler başka birşey kabul etmiyordu. İngilizler gümüşü geri kazanabilmek için el altından çinlilere hint afyonu satmaya başlar. Bu yüzden 20 milyon çinli afyon müptelası oldu. Tarihinde ilk kez çin ihracatından fazla ithalat yaptı ve afyon yasaklandı, afyonlar ise imha edildi. Bunun üzerine ingiltere gemilerler çine saldırdı. İlk demir gemi Nemesis ile çinin tahta gemilerine saldırdı ve kazandı. 1842 de çinliler barış istedi ve Çinden bütün imha edilen afyon parasını, 5 limanın ticarete açılmasını ve hong kong adasının kendilerine verilmesini istedi. Yeni sömürge çinin yanıbaşındaydı!
+
+O sırada japonya ise 200 yıldır dünyadan kopuk durumda, dolayısıyla orta çağı yaşıyor halen. 600 yıldır samuraylar ülkeyi yönetiyordu. Samurailarin silahı ellerindeki çelik kılıçlarıydı. İvasaki isimli samurai 1884 de samurailiği bırakarak girişimci oluyor ve çelik işleme yeteneğini çelikten gemiler yaparak kullanmaya başlıyor. Yabancı uzmanlar getirerek çeliğin hızlı üretilmesinin yollarını buluyor. Asyanın ilk sanayi ülkesi, batının 100 yılda öğrendiğini bu şekilde 10 yılda öğreniyor. Japonya şu an dünyanın 3. zengin ülkesidir. 
+
+Lev Tolstoy rusyanın çağdaşlaşmasında önemli bir rol oynar. Rusyada o zamanlar köleliğe benzer toprak ağalığı vardır. Ailesinin 300 toprak kölesi vardır. 1856 da kırım savaşı sonrası bilinçlenmiştir. Kölelik haksızlığına dayanamaz, kölelere yardım eder, halka okuma yazma öğretir. 13 okul açar. Kölelerine özgürlüğü öğretir, toprak vermeyi vaadeder ama köylüler çar'a inanır. Ancak 50 yıl sonra eski rusya bırakılır halk tarafından.. 
+
+Belfastda 1912 de dünyanın en büyük çelik gemisi(en büyük hareket eden cismi), titanik üretiliyor. İlk seferine çıkıyor, geminin içindekilerin yarısı yeni bir hayat kurmak isteyen fakir insanlardı. Teknolojinin o kadar da iyi olmadığını anlıyoruz..
+
+New york da ise good year ağaçlardan çıkan kauçuğun kimyasal yapısını sülfür katarak değiştirerek sert ama esnek bir madde elde ediyor. Sanayi devriminde basınçlı buhar cihazlar hep lastik contalar ile kullanılıyor, bu sebepten bu icat çok önemli. 1900 lü yıllarda Afrika kongoda milyarlarca kauçuk ağacı vardı. Belçika kralı leopold burayı sömürüyor ve insanlara işkence ediyorlardı. En sala isimli kauçuk toplayıcı afrikalı, ingiliz Aliselisten yardım ister. Bu kadın dünyaya fotograf çekerek bu zulmü dünyaya anlatır. Dergi ve gazetelerde yayımlanır ve bu leopold üzerinde baskı oluşturur. Böylece yeni güç doğmuş olur, medya! 
+
+Avrupada ise teknoloji 1. dünya savaşında tank, top, taramalı gibi müthiş silahlar icat edilmesine yol açıyor. Fakat 1. dünya savaşında ölenlerin 3 de 1 i hastalıktan ölüyor. Bakteriler bir araya geldiklerinde çok yetenekli oluyorlar. Kuzey fransada Alexsender Fleming askeri doktor, bakteriolog olarak görev yapıyor. İncelemesinde yaralarının bakteriler yüzünden iltahap kaptığını görüyor. 10 yıllık bir araştırma sonucunda 1928 yılında Londra'da penisilini icat ediyor. Dünyanın ilk antibiyotiği icat edilir.
+
+1917 de alman dış işleri bakanı Zimmerman, Meksikaya bağımsızlık vaadiyle amerikaya karşı savaşmaya ikna etmeye çalışmaktadır. bu şekilde amerika 1. dünya savaşına girer. Çünkü Almanya deniz altı savaşı başlatacaktır. 
+Lenin'ine Ruslarla Almanyayı barıştırmak için görevlendirir, karşılığında leninin hayali olan sosyalizmi rusyada kurmayı vaadeder. Amerika(kapitalizm) ve sovyetler birliği(komünizm) 2 büyük güç olarak 1. dünya savaşından çıkar.
+
+
+## 12. Bölüm
+2. dünya savaşında yenilen Almanya karışıklık içindedir. Onbaşı Adolf Hitler bu duruma çok üzgündür. Faşizmi savunmaktadır. 1919 da küçük bir partiye üye olarak siyasete giriş yaptı. Partinin amblemini yeniledi ve genel başkanı oldu. 4 yıl sonra Almanyayı ele geçirmeyi planlıyordu. 1923 de Münihli siyasi liderler toplantı yapıyordu. Hitler orayı basar ve ulusal devrimin başladığını ilan eder. Bu sebepten hitler tutuklanır ve 1 yıl hapis yatar. Bu sırada ünlü kitabı "Benim Kavgam"ı yazar. Hapisaneden çıkınca partisini kurar. Yahudilerden, komünizmden ve kapitalizmden nefret ederdi. O sırada Stalinin komünist ülkesi Sovyetler Birliği yükseliyordu. 
+
+1930 yılında Hindistan İngilterenin en değerli sömürgesi durumundadır. Halk artık Londradan bağımsızlık istiyordu. Mahadma Gandhi valiye bir mektup yazar ve halkının özğürlüğü için bir girişimde bulunacağını bildirir. İngilizler mektubu önemsemeyince planını başlatır. Tuz protestosu yapar, çünkü tuz hindistanın temel besini ve vergiye tabidir. Tuz ancak İngilizlerin gözetiminde çıkarılabiliyordu. Gandhi halktan herkesin kendi tuzunu çıkarmasını ve tuz vergisini protesto etmelerini ister. Aynen boston çay partisi gibi. 400 km yürüyerek medya gücünü kullanmak ister. Körfeze vardığında ülkede isyan artar ve ingilizler hemen Gandhiyi cezaevine atarlar. Bu daha çok insanın sokağa çıkmasına yol açar. Yılın sonunda 60 bin protestucu içeri atılır, dünya ingiltereyi kınar ve vali rezil olur. Sonunda vali Gandhiyi makamına çağırır, çay ikram eder, gandhi ise çayına tuz katarak boston çay partisini anmak isterim der. 1947 de Hindistan bağımsızlığını kazanır. Dünyaya şiddet uygulamadan sivil ithaatsizlik ile hakların elde edilebileceğini öğretmiştir. 
+
+1939 da Hitler, kapitalist Amerika, İngiltere ve komünist Rusya ya topyekün savaş açar. Stalinli Sovyetler ile de bir olur. 2. dünya savaşını başlatır. Hitler 1945 de teslim olur, ama japonlar teslim olmaya yanaşmaz. Sonucunda Amerika Japonyaya atom bombası atar. Robert Oppenheimer bombayı yapar. 2 hafta sonra atom bombası projesinden istifa eder.
+
+1935 de Amerikada en büyük kuraklık yaşanıyordu. Rosewell Garsten hibrit mısırı geliştiriyor yani kurakta da yetişebilen bir tohum türü. Ayrıca nitrojen gübreyi de icat etti.
+
+1945 yılında atom bombası keşfedildi, bu sayede nükleer enerji icat edildi ve günümüzün nükleer santralleri kuruldu. Dünyaya çok fazla enerji kaynağı sağladı. Atom bombası ile dünyada 19 bin nükleer başlık üretildi, bu bütün dünyayı silmek için fazlasıyla yeterli bir enerji, bu sebepten teknoloji çok mu fazla ileri gitti? Güney afrikada bir hastanede 1967 yılında Chistian Barnarda dünyadaki ilk kalp naklini yapar. Yeni icat olan yaşam destek ünitesi ile bunu başarır.
+
+Amerikada 1965 yılında siyahiler oy kullanamıyordu, ilk defa medya etkisi ile tüm insanlar oy kullanma özgürlüğüne kavuştu. Amerikada kadınlar ise 1920 de oy kullanma hakkına kavuşmuştur.
+
+1961 de uzaya önce Sovyetler insan gönderdi, daha sonra apollo aya indi. 1949 da Sovyetler kendi atom bombasını yaptı, 2 büyük güç arasında soğuk savaş başladı.
+
+1967 yılında kominüst Çin dünyaya yetişmeye çalışıyordu. Dang şapenk komünizm yerine iktisadi büyümeyi savunur. Kral onu sürgüne gönderir. 1976 yılında kralın ölümü ile başa gelir ve çini kominist ve kapitalizmin karışık bir hali ile yönetir. 2016 yılında ise Çin dünyanın en büyük ekonomisidir. 
+
+1989 de berlin duvarının yıkılması ile de soğuk savaş biter. 
+
+1997 de Garry Kasparov IBM in deep blue bilgisayarına yenilir. Bilgisayarların insan gibi düşünmesi başladı. Çok önemli bir adımdır. Bu gelişim insanlık tarihinde hiç olmadığı kadar hızlı bir sürede gerçekleşti.
+
+Bu hızlı gelişimin dezavantajları;
+Yağmur ormanları yok oldu,
+Küresel iklim değişikliğine yol açtı,
+Dünyada nüfüs çok arttı.
+
+
+
