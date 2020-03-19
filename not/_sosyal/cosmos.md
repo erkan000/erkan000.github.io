@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dünya Tarihi
+title: Cosmos
 date: 15.03.2020
 ---
 
