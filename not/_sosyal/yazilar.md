@@ -35,3 +35,4 @@ OpsGenie
 
 Threads
 *   [Semaphore Mutex ve Spinlock nedir](https://medium.com/@gokhansengun/semaphore-mutex-ve-spinlock-nedir-ve-ne-i%C5%9Fe-yarar-ba552a17c03)
+*   [Synchronization](https://www.lightbend.com/blog/7-ways-washing-dishes-and-message-driven-reactive-systems)
