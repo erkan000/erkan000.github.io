@@ -47,4 +47,4 @@ kuyruklu yıldız ve bazı göktaşlarının bazıları içinde katı halde su b
 1950 de yapılan bir deney ile su buharı, volkanik gazlar ve yıldırım gibi bir elektrik kaynağı ile aminoasitlerin oluştuğu keşfedildi. Doğrulamak için göktaşları incelendi ve aminoasitlerin bulunduğu görüldü! Hücreyi oluştururan DNA nın yapıtaşı aminoasitlerdir.
 
 
-* Carl Sagan'ın Cosmos kitabı alıntılarıdır.
+> Carl Sagan'ın Cosmos kitabı alıntılarıdır.
