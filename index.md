@@ -11,7 +11,7 @@ Hoşgeldin, burada hızlı notlarımı bulabilirsin.
 		<h2><b>{{ bolum.label }}</b> klasörü</h2>
 	  	<ul>
 	    	{% for item in site[bolum.label] %}
-	    		<li> - <a href="{{ item.url }}">{{ item.title }}</a></li>
+	    		<li> - <a id="writelinklist" href="{{ item.url }}">{{ item.title }}</a></li>
 	    	{% endfor %}
 	  	</ul>
 	  	<br>
