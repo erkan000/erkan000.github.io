@@ -12,15 +12,15 @@ EXT4 ile formatlanmış bir disk üzerinde klasöre sağ tıkla “Local Network
 sudo apt-get update 
 sudo apt-get upgrade
 ```
-* (red-hat tabanlı ise yum, deb uzantılı dosyalar debian ve ubuntu sistemlerde dpkg programı ile kurulabilirler.)
-* (rpm uzantılıları ubuntuya yüklemek için bunu deb uzantılıya çeviren alien programı kullanılabilir.)
-* Kullanılmayan yükleme dosyalarını silmek;
+- (red-hat tabanlı ise yum, deb uzantılı dosyalar debian ve ubuntu sistemlerde dpkg programı ile kurulabilirler.)
+- (rpm uzantılıları ubuntuya yüklemek için bunu deb uzantılıya çeviren alien programı kullanılabilir.)
+- Kullanılmayan yükleme dosyalarını silmek;
 ```sh
 sudo apt autoremove
 ```
 
 ## Program çalıştırma;
-Önce ll komutu ile dosya çalıştırılabilir mi ona bak. Ubuntu'da yeşil renk oluyor. Değil ise ```chmod +x dosya_adi``` diyerek dosyayı çalıştırılabilir yaparız. Sonra da `./dosya_adi` diyerek çalıştırırız.
+Önce ll komutu ile dosya çalıştırılabilir mi ona bak. Ubuntu'da yeşil renk oluyor. Değil ise ```chmod +x dosya_adi``` diyerek dosyayı çalıştırılabilir yaparız. Sonra da **./dosya_adi** diyerek çalıştırırız.
 
 ## Komut satırından arama yapmak;
 ```sh
@@ -167,30 +167,38 @@ sudo usermod -a -G tomcat chi
 sudo usermod -a -G groupName usrName
 
 ## Ubuntu teması değiştirme;
+```sh
 sudo apt-get install unity-tweak-tool
 unity-tweak-tool
+```
 
 programını kullanarak “Theme” başlığı altında temayı değiştirebilirsin. Numix olan güzel olmuş.
 GNOME arayüzü kullanıyorsan ise gnome-twek-tool kullanabilirsin.
 
 Değişiklikten sonra terminali renklendirmek istersen ise;
 
- 1685  gedit ~/.bashrc 
+```sh
+gedit ~/.bashrc 
+
 içine en son satıra şunu ekle.
 PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h:\[\033[1;35m\]\w\[\033[1;31m\]\$\[\033[0m\] '
 
- 1686  source ~/.bashrc
+source ~/.bashrc
+```
 
 ## Icon teması değiştirmek için ise Numix in önce icon setini yüklüyoruz.
+```sh
 sudo add-apt-repository ppa:numix/ppa
 sudo apt-get update
 sudo apt-get install numix-gtk-theme numix-icon-theme-circle
+```
 
 ve yukardaki tweak tool ile “Icon” yazan kısımdan Numix çıkacak ve onu seçebiliriz artık.
 
 ## Dosya sahipliği değiştirmek
 Bir klasörü ve içindeki bütün dosyaların sahipliğini başka bir kullanıcıya devretmek için;
-	sudo chown -R tomcat:tomcat .
+ > sudo chown -R tomcat:tomcat .
+
 Komutu kullanılır. -R parametresi recursive için, ilk tomcat kullanıcı ikinci tomcat ise grup parametresidir.
 
 ## Dosya yetkileri değiştirmek
@@ -198,19 +206,19 @@ Komutu kullanılır. -R parametresi recursive için, ilk tomcat kullanıcı ikin
 	sudo chmod -R 777 14subat
 
 ## Sistemin “Enviroment Variables” görüntülemek;
-printenv 			bütün değişkenleri görüntüler
-printenv PATH		sadece PATH değişkenini görüntüler
-echo $PATH	PATH 		değişkenini farklı bir yoldan görüntüler
-(https://help.ubuntu.com/community/EnvironmentVariables )
+- printenv 	:: bütün değişkenleri görüntüler
+- printenv PATH	 :: sadece PATH değişkenini görüntüler
+- echo $PATH  :: PATH değişkenini farklı bir yoldan görüntüler. (https://help.ubuntu.com/community/EnvironmentVariables )
 
 ## Auto start-up
 Kullanıcı login olduğunda otomatik bir program çalıştırmak için; Dash’i açıp “Startup Applications” yaz. Buradan istediğin programı ekleyebilirsin. Bu ekran arka planda ~/config/autostart klasörü içine programAdi.desktop isimli bir dosya yaratmaktadır.
 
 ## Kullanıcının yüklediği programlar;
 İki yolu vardır. Birincisi ubuntu software center da “installed” kısmında bir kısmını bulabiliriz. İkinci yöntem ise şu komutlardır;
-	grep " install " /var/log/dpkg.log
-	grep " install " /var/log/dpkg.log.1
-	zgrep " install " /var/log/dpkg.log.2.gz
+- grep " install " /var/log/dpkg.log
+- grep " install " /var/log/dpkg.log.1
+- zgrep " install " /var/log/dpkg.log.2.gz
+
 var/log içinde kaç adet zip varsa o kadar bu komutu koştururuz.
 
 ## Wget ile bir klasör çekmek;
@@ -221,68 +229,66 @@ var/log içinde kaç adet zip varsa o kadar bu komutu koştururuz.
 
 ## cURL komutu;
 curl komutu desteklediği bazı protokoller ile data transferi yapmaya yarar. Bunu yaparken libcurl kütüphanesini kullanır. Wget e benzer fakat ikisinin de olumlu ve olumsuz tarafları vardır. HTTP POST isteği yapılabilir, TLS desteği vardır, HTTP cookie leri gönderilebilir ve HTTP auth yapılabilir.
-	curl	http://x.y/a.zip			Gelen veriyi ekrana yazar.
-	curl -O http://x.y/a.zip		Büyük o serverdaki isimle download 
-	curl -o b.zip http://x.y/a.zip	Küçük o b.zip isimle download eder.
-	curl -h					ile diğer parametreleri görebiliriz.
+- curl	http://x.y/a.zip			Gelen veriyi ekrana yazar.
+- curl -O http://x.y/a.zip		Büyük o serverdaki isimle download 
+- curl -o b.zip http://x.y/a.zip	Küçük o b.zip isimle download eder.
+- curl -h ile diğer parametreleri görebiliriz.
 
 ## Docker Yüklemek;
 Önce Docker reposunu repolara ekliyoruz ve ap-get install ile kuruyoruz.
-1.) Repoya eklemek;
-	sudo apt-get update
-	sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
-	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-	sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+1. Repoya eklemek;
+	- sudo apt-get update
+	- sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+	- curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+	- sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 
-2.) Docker kurmak;
-	sudo apt-get update
-	sudo apt-get install docker-ce
-3.) Docker test etmek için;
-	sudo docker run hello-world
-4.) uninstall etmek için;
-	sudo apt-get purge docker-ce
+2. Docker kurmak;
+	- sudo apt-get update
+	- sudo apt-get install docker-ce
+3. Docker test etmek için;
+	- sudo docker run hello-world
+4. uninstall etmek için;
+	- sudo apt-get purge docker-ce
 komutu, fakat bu komut imageları silmediği için, 
-	sudo rm -rf /var/lib/docker
+	- sudo rm -rf /var/lib/docker
 komutu ile images, containers, and volumes silinir.
 
 Her seferinde sudo kelimesini kullanmamak için; kullanıcıyı kurulumla gelen docker grubuna eklemeliyiz.
 
 Kullanıcıyı yeni bir gruba eklemek;
 Bir kullanıcının grupları id komutuyla görüntülenir;
+
 	id -nG
 Kullanıcını yeni bir gruba eklemek için ise;
+
 	sudo usermod -aG docker chi
 docker grup adı, chi user adıdır. Parametre ise kullanıcının hali hazırdaki gruplarına append et demektir.
 
 
 ## Docker Compose Yüklemek;
 Önce yukarıdaki gibi docker’ı yüklüyoruz. Docker kurulumu bittikten sonra;
-1.) Önce docker compose son sürümü şu adresten kontrol edilir.
+1. Önce docker compose son sürümü şu adresten kontrol edilir.
 	https://github.com/docker/compose/releases
-
 	
-2.) Docker kurmak; Aşağıdaki komutta sürüm numarası son sürüm ile değiştirilir ve komut çalıştırılarak localimize compose çalıştırılabilir dosyası download edilir. 
-	sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+2. Docker kurmak; Aşağıdaki komutta sürüm numarası son sürüm ile değiştirilir ve komut çalıştırılarak localimize compose çalıştırılabilir dosyası download edilir. 
+	- sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-'uname -s'-'uname -m' -o /usr/local/bin/docker-compose
 
-indirilen dosya çalıştırılabilir yapılır.
-	sudo chmod +x /usr/local/bin/docker-compose
+	indirilen dosya çalıştırılabilir yapılır.
+	- sudo chmod +x /usr/local/bin/docker-compose
 	
-3.) Docker compose test etmek için;
-	docker-compose –version
+3. Docker compose test etmek için;
+	- docker-compose –version
 
-4.) Unistall etmek için sadece dosyayı sil, o kadar;
+4. Unistall etmek için sadece dosyayı sil, o kadar;
 	sudo rm /usr/local/bin/docker-compose
 
 
 
 ## Sistem bilgileri, versiyon, sürüm;
-	uname -a		Kernel bilgileri
-veya
-	sudo cat /etc/os-release
-veya
-	lsb_release -a
-veya
-	cat /proc/version
+- uname -a		Kernel bilgileri
+- sudo cat /etc/os-release
+- lsb_release -a
+- cat /proc/version
 
 ## Docker Komutları;
 - docker info				container sayısı, image sayısı, docker klasörü
@@ -317,46 +323,55 @@ https://www.tutorialspoint.com/docker/docker_working_with_containers.htm
 ## Docker wildfly örneği;
 
 Dockerfile'ımızı yazalım;
-
+```sh
 FROM wildfly
 ADD jsf.war /opt/jboss/wildfly/standalone/deployments/
 USER jboss
 RUN /opt/jboss/wildfly/bin/add-user.sh admin admin --silent
 CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-bmanagement", "0.0.0.0", "--debug"]
+```
 
 Önce Dockerfile dosyamızdan imajı derleriz.
-	docker build --tag=image-name .
+- docker build --tag=image-name .
 
 İmajımızdan yeni bir container oluşturup çalıştırırız.
-	docker run -d -p 8080:8080 -p 9990:9990 -p 8787:8787 --name container-name image-name
+- docker run -d -p 8080:8080 -p 9990:9990 -p 8787:8787 --name container-name image-name
 
-docker start xx		sunucuyu başlat
-docker stop  xx		sunucuyu durdur
+- docker start xx		sunucuyu başlat
+- docker stop  xx		sunucuyu durdur
 
-docker image rm xx	imajı siler
-docker rm xx		container'ı siler.
+- docker image rm xx	imajı siler
+- docker rm xx		container'ı siler.
 
 
 ## Docker ile WAS çalıştırmak;
 Önce docker imajını docker hub dan bulup çekeriz, birçok versiyon var, benimki 11 olduğu için 11 versiyonunu çekeceğim. Bu aşamada was imajını internetten indirecektir.
-	docker pull ibmcom/websphere-traditional:8.5.5.11-profile
+- docker pull ibmcom/websphere-traditional:8.5.5.11-profile
 çalıştırmak için ise;
-	docker run --name was -h was -p 9043:9043 -p 9443:9443 -d ibmcom/websphere-traditional:8.5.5.11-profile
+- docker run --name was -h was -p 9043:9043 -p 9443:9443 -d ibmcom/websphere-traditional:8.5.5.11-profile
+
 Buradaki –name parametresi container’a kısa bir isim vermek için, -h ise hostname’i set etmek için, -d ise konsolu arka planda deattach mode da kullanılıyor.  Artık sunucumuz hazırdır. Burada profile tag’ı önceden ibm tarafından hazırlanmış default bir profil olduğunu belirtmek için kullanılıyor. Ardından bu profile ait “wsadmin” kullanıcısı şifresini bulmamız gerekiyor. 
-	docker exec was cat /tmp/PASSWORD
+- docker exec was cat /tmp/PASSWORD
+
 komutu ile wsadmin şifresini öğreniyoruz ve test etmek için https://localhost:9043/ibm/console/login.do?action=secure adresine gidip login oluyoruz. 
 Sunucu loglarını görmek için;
-	docker logs -f --tail=all was
+- docker logs -f --tail=all was
+
 Docker container içine girmek için;
-	docker exec -it was bash
+- docker exec -it was bash
+
 diyerek sunucumuz içinde gezebilir, onun lokalindeki farklı sunucuda ayar yapabiliriz. Burada was programlarına 
-	cd /opt/IBM/WebSphere/AppServer/profiles/AppSrv01/bin
+- cd /opt/IBM/WebSphere/AppServer/profiles/AppSrv01/bin
+
 klasöründen ulaşabiliriz. 
 Sunucu içinde iken wsadmin şifresini değiştirmek için, şu komut ile admin consola girilir,
-	wsadmin.sh -conntype NONE
+- wsadmin.sh -conntype NONE
+
 Ardından şu iki komut ile şifre değiştirilir.
+```sh
 	$AdminTask changeFileRegistryAccountPassword {-userId wsadmin -password wsadmin}
 	$AdminConfig save
+```
 
 Sunucuyu başlatma ve durdurma için ise çeşitli yollar mevcuttur.
 
@@ -368,9 +383,11 @@ Normalde ./startServer.sh server1 ve ./stopServer.sh server1 ile yapılıyor?
 
 Şu Dockerfile ile kolayca yapabiliriz;
 
+```sh
 FROM ibmcom/websphere-traditional:profile
 COPY Sample1.war /tmp/
 RUN wsadmin.sh -lang jython -conntype NONE -c "AdminApp.install('/tmp/Sample1.war', '[ -appname Sample1 -contextroot /Sample1 -MapWebModToVH [[ Sample1.war Sample1.war,WEB-INF/web.xml default_host]]]')"
+```
 
 
 ## Docker ile db2
@@ -389,7 +406,7 @@ Bilgisayarı yeniden başlatınca durur DB. O yüzden önce duran container’ı
 	docker logs db2
 
 ## Docker compose kullanımı
-	compose ile birden fazla image ile çalışabilir ve bunları tek seferde yönetip, aralarında network kurabliriz. Compose çalışmak için “docker-compose.yml” veya “docker-compose.yaml” dosyasını arar. Aşağıda örneği vardır;
+compose ile birden fazla image ile çalışabilir ve bunları tek seferde yönetip, aralarında network kurabliriz. Compose çalışmak için “docker-compose.yml” veya “docker-compose.yaml” dosyasını arar. Aşağıda örneği vardır;
 	
 my-test:
  image: hello-world
@@ -405,6 +422,8 @@ Yaml içindeki bütün servisleri silmek için;
 	docker-compose down –volumes		(Volume lerle birlikte sil)
 
 Örnek bir docker-compose dosyası;
+
+```sh
 
 version: '3.3'
 
@@ -437,22 +456,27 @@ volumes:
     db_data:
     wp_data:
 
+```
+
 
 Açıklamaları ise;
 In the first line, we are specifying the Compose file version. There are several different versions of the Compose file format with support for specific Docker releases.
+
 Next, we are defining two services, db and wordpress. Each service runs one image and it will create a separate container when docker-compose is run.
+
 The db service:
-    • Uses the mysql:5.7 image. If the image is not present on the system it will be pulled it from the Docker Hub public repository.
-    • Uses the restart always policy which will instruct the container to always restart.
-    • Creates a named volume db_data to make the database persistent.
-    • Defines the environment variables for the mysql:5.7 image.
+- Uses the mysql:5.7 image. If the image is not present on the system it will be pulled it from the Docker Hub public repository.
+- Uses the restart always policy which will instruct the container to always restart.
+- Creates a named volume db_data to make the database persistent.
+- Defines the environment variables for the mysql:5.7 image.
+
 The wordpress service:
-    • Uses the wordpress image. In the image is not present on your system Compose will pull it from the Docker Hub public repository.
-    • Uses the restart always policy which will instruct the container to always restart.
-    • Mounts the wp_data directory on the host to /var/lib/mysql inside the container.
-    • Forwards the exposed port 80 on the container to port 8080 on the host machine.
-    • Defines the environment variables for the wordpress image.
-    • The depends_on instruction defines the dependency between the two services. In this example, db will be started before wordpress.
+- Uses the wordpress image. In the image is not present on your system Compose will pull it from the Docker Hub public repository.
+- Uses the restart always policy which will instruct the container to always restart.
+- Mounts the wp_data directory on the host to /var/lib/mysql inside the container.
+- Forwards the exposed port 80 on the container to port 8080 on the host machine.
+- Defines the environment variables for the wordpress image.
+- The depends_on instruction defines the dependency between the two services. In this example, db will be started before wordpress.
 
 
 ## Klasör boyutu
