@@ -12,9 +12,9 @@ EXT4 ile formatlanmış bir disk üzerinde klasöre sağ tıkla “Local Network
 sudo apt-get update 
 sudo apt-get upgrade
 ```
-- (red-hat tabanlı ise yum, deb uzantılı dosyalar debian ve ubuntu sistemlerde dpkg programı ile kurulabilirler.)
-- (rpm uzantılıları ubuntuya yüklemek için bunu deb uzantılıya çeviren alien programı kullanılabilir.)
-- Kullanılmayan yükleme dosyalarını silmek;
+* (red-hat tabanlı ise yum, deb uzantılı dosyalar debian ve ubuntu sistemlerde dpkg programı ile kurulabilirler.)
+* (rpm uzantılıları ubuntuya yüklemek için bunu deb uzantılıya çeviren alien programı kullanılabilir.)
+* Kullanılmayan yükleme dosyalarını silmek;
 ```sh
 sudo apt autoremove
 ```
