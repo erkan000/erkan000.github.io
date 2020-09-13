@@ -16,3 +16,11 @@ date: 12.05.2018
 > Oscar Wilde
 
 ---
+
+> Birisini unutmak zorundaysanız, bunu sindire sindire yapın. Çünkü aklın zamansız öldürdükleri, yürekte amansız dirilir.
+> Paul Auster
+
+---
+
+> Mutluluk, yaşadığın hayat tarzında değil hayata bakış tarzındadır.
+> Tolstoy
