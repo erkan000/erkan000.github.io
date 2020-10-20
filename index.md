@@ -3,7 +3,7 @@ title: Hello World
 date: 24.03.2019
 ---
 
-Hoşgeldin, burada hızlı notlarımı bulabilirsin.
+Hoşgeldin, burada notlarımı bulabilirsin.
 
 <div>
 {% for bolum in site.collections %}
@@ -19,6 +19,4 @@ Hoşgeldin, burada hızlı notlarımı bulabilirsin.
 {% endfor %}
 </div>
 
-<div>
-	<a href="http://busrauzun.com/clean-code-kitabindan-notlar.html">Robert C. Martin, Clean Code kitabı notları!</a>
-</div>
+

@@ -13,6 +13,8 @@ bundle exec jekyll serve
 
 ## Docker
 
+Repo'nun içinde bulunduğun klasörde şu komutları docker ile çalıştır. Windows WSL 2 de ubuntu imajı ile test edilmiştir.
+
 ```sh
 
 export JEKYLL_VERSION=3.8
