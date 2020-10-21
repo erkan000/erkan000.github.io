@@ -481,3 +481,173 @@ The wordpress service:
 
 ## Klasör boyutu
 	sudo du -hs /var/lib/docker
+
+
+## CA eklemek
+
+```sh
+sudo mkdir /usr/share/ca-certificates/extra
+sudo cp Proxy.crt /usr/share/ca-certificates/extra/Proxy.crt
+sudo dpkg-reconfigure ca-certificates
+```
+
+veya
+
+```sh
+sudo cp ROOTCA /usr/local/share/ca-certificates/rootca.crt
+sudo update-ca-certificates
+```
+
+Test etmek için;
+
+openssl s_client -showcerts -connect localhost:7000
+
+Burada s_client proxy kullanıcı adı ve şifresi set etmeyi desteklemiyor, test edebilmek için proxytunnel kullandım.
+
+```sh
+sudo apt-get install proxytunnel
+proxytunnel -p proxy.company.intra:80 -P user:pass -d www.google.com:443 -a 7000
+```
+
+Proxy tunnel google'a ulaşmak için localhost da 7000. porttan bana burayı sundu. Bende sadece localhost daki 7000. porta bağlandım.
+
+Bu sırada kullandığım crt dosyasının binary olduğunu anladım. .crt .pem dosyaları birbiri ile uyumludur. İçinde Base64 olarak kodlanmış ---BEGIN CERTIFICATE--- ile başlayan sertifikalar bulunur. (cat Proxy.crt ile içeriğini görebilirsin.) Bunu base64 ile kodlanmış tipik bir sertifikaya çevirmek için;
+
+openssl x509 -inform DER -in Proxy.crt -out proxy.pem -outform PEM
+
+En sonunda chrome için browser içindeki CA ekleme kısmında sertifikayı ekledim ve çözdüm!
+
+## Proxy ayarlamak
+
+Enviroment variables'a konabilir. Önce şu komutla kontrol edebilirsin,
+
+```sh
+env | grep proxy
+```
+
+export ile değişken set edebiliriz. Fakat bu komutu çalıştırdığımız shell için geçerli olur, Sonra her pc açılışında otomatik olarak bu değişkenlerin set edilmesi için aşağıdaki dosyaya şu 3 satır eklenebilir.
+
+gedit ~/.bashrc 
+
+```sh
+export http_proxy=proxy.company.intra:80
+export https_proxy=proxy.company.intra:80
+export no_proxy=localhost,127.0.0.1,*.company.intra
+```
+
+Burada kullanıcı adı şifre notasyonu desteklenmiyor. Buna dikkat et. Bu dosyayı aslında proxy ayarlarını girince OS kendi değiştiriyor!
+
+
+Birde şöyle bir proje varmış;
+http://ntlmaps.sourceforge.net/
+
+## Bütün kullanıcılar için;
+sudo gedit /etc/environment
+
+```sh
+export http_proxy=http://user:xxx@proxy.company.intra:80
+export https_proxy=http://user:xxx@proxy.company.intra:80
+export no_proxy=localhost,127.0.0.1,*.company.intra
+```
+
+
+## Software updater için;
+
+sudo gedit /etc/apt/apt.conf.d/proxy.conf dosyası içine aşağıdaki satırları ekle;
+
+```sh
+Acquire::http::Proxy "http://user:xxxx@proxy.company.intra:80";
+Acquire::https::Proxy "http://user:xxxx@proxy.company.intra:80";
+Acquire::no_proxy::Proxy "localhost,127.0.0.1,*.company.intra";
+```
+
+## Chrome için;
+Chrome proxy için sistem proxy'sini kullanıyor. dikkat etmen gereken https proxy de set etmeyi unutma. Settings - Network - Proxy
+Bu şekilde aşağıda anlatılan ayarlara gerek kalmıyor!
+
+Chrome çalıştırılabilir dosyası açılırken parametre olarak proxy'yi geçtim. Şu şekilde otomatize edebilirsin. (google-chrome-stable --proxy-server="proxy.company.intra:80")
+
+```sh
+sudo gedit /usr/share/applications/google-chrome.desktop
+```
+
+içinde aşağıdaki satır sonuna proxy'yi ekle.
+
+Exec=/usr/bin/google-chrome-stable %U --proxy-server="proxy.company.intra:80"
+
+Chrome içinden de bunu yapabilirdim sanırım!
+
+```sh
+wget dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_83.0.4103.97-1_amd64.deb
+```
+
+## Samba bağlanmak;
+```sh
+sudo apt install smbclient
+smbclient -W DOMAIN -U userA -L //dosyalar
+```
+
+En kolayı Nautilus dosya gezgini içinden, "Other Locations" tıklayıp, server adresi kısmına
+
+```sh
+smb://dosyalar
+smb://10.131.1.5
+```
+
+yazarak ulaşmaktır. Burada kullanıcı, domain bilgilerini yukardaki gibi gir.
+
+
+## Packet Trace;
+eth1 in 80. porta yapılan TCP isteklerini capture et.
+
+```sh
+sudo tcpdump -ni eth1 tcp port 80
+```
+
+```sh
+gsettings set org.gnome.system.proxy.http authentication-password 'xxx'
+gsettings set org.gnome.system.proxy.http authentication-user 'userA'
+gsettings set org.gnome.system.proxy.http use-authentication true
+```
+
+## Kısayol oluşturmak;
+Program executable ve iconunu bul ve path lerini not al. Sonra kısayol dosyasınu aşağıdaki gibi oluştur.
+
+gedit ~/Desktop/Eclipse.desktop
+
+```sh
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/snap/bin/skype
+Name=Skype
+Comment=Skype
+Icon=/home/dev/Software/eclipse-jee-2020-03-R-incubation-linux-gtk-x86_64/eclipse/.icon.xpm
+```
+
+Masaüstündeki simgeye sağ tıkla ve "Allow Launching" de. Bu kadar
+
+
+## SVN
+Linux da SVN yüklemek için jar yetmiyor, işletim sistemine şunları yükle;
+
+```sh
+sudo apt-get install subversion
+sudo apt-get install libsvn-java
+```
+
+Eclipse plug in yukledikten sonra ise eclipse.ini dosyasına şunu göster;
+
+-vmargs dan sonra
+
+-Djava.library.path=/usr/lib/jni 
+
+Buradaki path i şu komutla bul.
+
+sudo find / -name "libsvnjavahl-1.so"
+
+bu yöntem ubuntuda problem çıkardı, onun yerine subversive yükledim sorun çözüldü!
+
+
