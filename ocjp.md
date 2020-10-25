@@ -2,7 +2,7 @@
 title: OCJP Notları
 ---
 
-OCJP notları
+OCJP notlarım
 
 {% for bolum in site.ocjp %}
 

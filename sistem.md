@@ -1,12 +1,12 @@
 ---
-title: WAS Notları
+title: Sistem Notları
 date: 24.03.2019
 ---
 
-was ile ilgili sayfa dır
+Sistem notları
 
 
-{% for bolum in site.was %}
+{% for bolum in site.sistem %}
 
 <li><a href="{{ bolum.url }}">{{ bolum.title }}</a></li>
 

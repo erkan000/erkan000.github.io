@@ -8,6 +8,7 @@ date: 12.04.2019
 
 Cache ile çalışmak için WAS'ın built-in bir cache manager'ı vardır. "services/cache/distributedmap" JNDI path'inden ulaşabilirsin. İçine istediğin nesneyi koyabilirsin. Kullanımı;
 
+```java
 		try{
 			InitialContext ctx = new InitialContext();
 			DistributedMap cacheObject = (DistributedMap) ctx.lookup("services/cache/distributedmap");
@@ -20,12 +21,13 @@ Cache ile çalışmak için WAS'ın built-in bir cache manager'ı vardır. "serv
 		}catch(Exception e){
 			log.error(e);
 		}
+```
 
 Bu servis cluster ortamında veriyi paylaştırmıyor. Sadece aynı JVM içindeki uygulama bu nesneye ulaşabiliyor. Çözümü "hazelcast", "redis" vs..
 
 Recursive almak için aşagıdaki metodu netten buldum fakat sonsuz döngüye giriyor. Araştırmadım.
 
-
+```java
 	public static void recursiveGet(String name, PrintWriter out){
 		try{
 			InitialContext c = new InitialContext();
@@ -41,6 +43,7 @@ Recursive almak için aşagıdaki metodu netten buldum fakat sonsuz döngüye gi
 			log.error(e);
 		}
 	}
+```
 
 
 

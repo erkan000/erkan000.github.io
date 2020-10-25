@@ -3,7 +3,7 @@ title: Linux Notları
 date: 12.01.2020
 ---
 
-Linux ile ilgili sayfa dır
+Linux notlarım
 
 
 {% for bolum in site.linux %}

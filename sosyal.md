@@ -3,7 +3,7 @@ title: Sosyal
 date: 09.02.2020
 ---
 
-Edebiyat, tarih ve çeşitli yazıların bulunmaktadır.
+Edebiyat, tarih ve çeşitli yazıları bulunmaktadır.
 
 
 {% for bolum in site.sosyal %}
