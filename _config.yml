@@ -17,7 +17,7 @@ title: Notlarım
 email: your-email@example.com
 description: Java notes
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://erkan000.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: erkan000
 github_username:  erkan000
 
