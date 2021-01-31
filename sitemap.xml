@@ -1,0 +1,21 @@
+---
+layout: null
+---
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+{% for bolum in site.collections %}
+	{% if bolum.label != 'posts' %}
+	    {% for item in site[bolum.label] %}
+  
+		    <url>
+		      <loc>{{ site.url }}{{ item.url }}</loc>
+		      <lastmod>{{ item.date | date_to_xmlschema }}</lastmod>
+		      <changefreq>monthly</changefreq>
+		      <priority>0.5</priority>
+		    </url>
+
+		{% endfor %}
+	{% endif %}
+{% endfor %}
+
+</urlset>
