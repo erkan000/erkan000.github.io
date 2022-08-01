@@ -24,3 +24,13 @@ date: 12.05.2018
 
 > Mutluluk, yaşadığın hayat tarzında değil hayata bakış tarzındadır.
 > Tolstoy
+
+---
+
+> Bir insan acı duyarsa canlıdır. Başkasının acısını duyarsa insandır.
+> Tolstoy
+
+---
+
+> Herkes kusurlarıyla, kusursuzun peşinde
+
