@@ -13,6 +13,7 @@ Bilişim
 *   [Microservices vs SOA](https://dzone.com/articles/microservices-vs-soa-whats-the-difference)
 *   [Shazam-in-muzik-arama-algoritmasi-nasil-calisir](http://devnot.com/2018/shazam-in-muzik-arama-algoritmasi-nasil-calisir/)
 *   [Fourrier Dönüşümü nedir, nerede kullanılır?](https://evrimagaci.org/fourier-donusumu-internette-muzik-ve-fotograf-paylasimini-mumkun-kilan-matematik-7728)
+*   [The world map that reboots your brain](https://axbom.com/world-map/)
 
 
 Diğerleri
