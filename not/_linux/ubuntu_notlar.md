@@ -59,7 +59,7 @@ sudo nano /opt/tomcat/conf/server.xml
 sudo systemctl restart tomcat
 ```
 
-tomcat dizini sahibini değişttirmek için;
+tomcat dizini sahibini değiştirmek için;
 ```sh
 sudo chown -R chi /opt/tomcat/
 ```
