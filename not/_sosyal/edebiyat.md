@@ -34,3 +34,8 @@ date: 12.05.2018
 
 > Herkes kusurlarıyla, kusursuzun peşinde
 
+---
+
+> Eğer ki diğerlerinden ötesini görebildiysem; bu, devlerin omuzlarında yükseldiğim içindir.
+> Isaac Newton
+
